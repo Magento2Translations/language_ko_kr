@@ -2739,10 +2739,12 @@ Password:,비밀번호:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","만약 이 요청을 고객님께서 하시지 않으셨다면 이 이메일은 무시해도 무방합니다. 이메일주소와 비밀번호는 이전 그대로 유지됩니다.",module,Magento_Customer
 "Your %store_name password has been changed","%store_name에서 고객님의 비밀번호가 변경되었습니다.",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","%store_name에서 고객님의 정보변경을 요청받았습니다: 비밀번호",module,Magento_Customer
+"Checkout out as a new customer","신규 계정으로 결제",module,Magento_Customer
 "Creating an account has many benefits:","계정을 생성하면 많은 혜택이 있습니다.",module,Magento_Customer
 "See order and shipping status","주문 및 배송 상태 보기",module,Magento_Customer
 "Track order history","주문 이력 확인",module,Magento_Customer
 "Check out faster","간편한 결제",module,Magento_Customer
+"Checkout out using your account","계정으로 결제하기",module,Magento_Customer
 "Email Address","이메일 주소",module,Magento_Customer
 "Gift Message (optional)","선물 메시지 (선택 사항)",module,Magento_GiftMessage
 Message:,메시지:,module,Magento_GiftMessage
@@ -3380,6 +3382,7 @@ Currency,통화,module,Magento_CurrencySymbol
 "Online Customers Options","온라인 고객 옵션",module,Magento_Customer
 "Leave empty for default (15 minutes).","빈칸으로 두면 기본값이 적용됩니다. (15분)",module,Magento_Customer
 "Assign a Customer Group","고객 그룹 지정",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","정말로 선택한 고객을 신규 그룹으로 지정하겠습니까?",module,Magento_Customer
 Group,그룹,module,Magento_Customer
 "Add New Customer","신규 고객 추가",module,Magento_Customer
 "Are you sure to delete selected customers?","선택한 고객을 삭제하겠습니까?",module,Magento_Customer
