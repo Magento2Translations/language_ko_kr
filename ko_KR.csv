@@ -9,11 +9,9 @@ Remove,삭제,module,Magento_AdminNotification
 close,닫기,module,Magento_AdminNotification
 Notifications,알림,module,Magento_AdminNotification
 "The message has been marked as Read.","메시지를 읽은 상태로 표시했습니다.",module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.","오류로 인해 이 알림을 읽은 상태로 표시할 수 없습니다.",module,Magento_AdminNotification
 "Please select messages.","메시지를 선택해주세요.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","모두 %1개의 레코드를 읽은 상태로 표시했습니다.",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","모두 %1개의 레코드를 삭제했습니다.",module,Magento_AdminNotification
-"We couldn't remove the messages because of an error.","오류로 인해 이 메시지를 삭제할 수 없습니다.",module,Magento_AdminNotification
 "The message has been removed.","메시지를 삭제했습니다.",module,Magento_AdminNotification
 "1 Hour",1시간,module,Magento_AdminNotification
 "2 Hours",2시간,module,Magento_AdminNotification
@@ -31,11 +29,12 @@ notice,알림,module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","하나 이상의 미디어 파일을 동기화하지 못했습니다. 상세 내용은 로그 파일을 참조해주세요.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","미디어 저장소 동기화를 완료했습니다.",module,Magento_AdminNotification
 "Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","웹서버가 잘못 설정되어 중요한 파일에 인증되지 않은 접근을 허용하고 있습니다. 호스팅 제공업체에 문의하세요.",module,Magento_AdminNotification
+"Close popup","팝업 닫기",module,Magento_AdminNotification
+Close,닫기,module,Magento_AdminNotification
 "System Messages:","시스템 메시지:",module,Magento_AdminNotification
 "Critical System Messages","Critical 시스템 메시지",module,Magento_AdminNotification
 "Major System Messages","Major 시스템 메시지",module,Magento_AdminNotification
 "System messages","시스템 메시지",module,Magento_AdminNotification
-Close,닫기,module,Magento_AdminNotification
 "See All (","모두 보기 (",module,Magento_AdminNotification
 "Please correct the data sent.","전송될 데이터를 수정해주십시오.",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","엔터티 타입 모델은 반드시 \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType의 인스턴스여야 합니다.",module,Magento_AdvancedPricingImportExport
@@ -45,6 +44,7 @@ Close,닫기,module,Magento_AdminNotification
 "Order saving error: %1","주문 저장 에러: %1",module,Magento_Authorizenet
 "Please choose a payment method.","결제방법을 선택해 주십시오.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","주문을 처리할 수 없습니다. 나중에 다시 시도 하십시오.",module,Magento_Authorizenet
+"Cannot place order.","주문을 진행할 수 없습니다.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","신용 카드: xxxx-%1",module,Magento_Authorizenet
 "amount %1","금액 %1",module,Magento_Authorizenet
 failed.,실패.,module,Magento_Authorizenet
@@ -173,10 +173,10 @@ No,아니오,module,Magento_Backend
 "Store Information","스토어 정보",module,Magento_Backend
 "Web Site",웹사이트,module,Magento_Backend
 Name,이름,module,Magento_Backend
-Code,코드,module,Magento_Backend
 "Root Category","최상위 카테고리 추가",module,Magento_Backend
 "Default Store View","기본 스토어뷰",module,Magento_Backend
 "Store View Information","스토어뷰 정보",module,Magento_Backend
+Code,코드,module,Magento_Backend
 Status,상태,module,Magento_Backend
 Disabled,비활성화,module,Magento_Backend
 Enabled,활성화,module,Magento_Backend
@@ -205,7 +205,6 @@ Export,내보내기,module,Magento_Backend
 "Please select items.","항목을 선택해 주십시오.",module,Magento_Backend
 Submit,전송,module,Magento_Backend
 "Unknown block type","알 수없는 블록 타입",module,Magento_Backend
-"Please correct the tab configuration and try again. Tab Id should be not empty","탭 구성을 수정하고 다시 시도하십시오. 탭 Id는 비어 있어서는 안됩니다.",module,Magento_Backend
 "Please correct the tab configuration and try again.","탭 구성을 수정하고 다시 시도하십시오.",module,Magento_Backend
 "You have logged out.",로그아웃했습니다.,module,Magento_Backend
 "The image cache was cleaned.","이미지 캐시를 비웠습니다.",module,Magento_Backend
@@ -232,10 +231,10 @@ Error,에러,module,Magento_Backend
 "You need more permissions to do this.","권한이 없습니다.",module,Magento_Backend
 "No search modules were registered","검색 모듈이 등록되지 않았습니다",module,Magento_Backend
 "Please make sure that all global admin search modules are installed and activated.","모든 글로벌 관리자 검색 모듈이 설치되고 활성화되었는지 확인하십시오.",module,Magento_Backend
+"You have entered an invalid password for current user.","잘못된 비밀번호를 입력 했습니다.",module,Magento_Backend
 "You saved the account.","계정을 저장했습니다.",module,Magento_Backend
 "An error occurred while saving account.","계정 저장중 에러가 발생했습니다.",module,Magento_Backend
 "You deleted the design change.","디자인 변경을 삭제했습니다.",module,Magento_Backend
-"You can't delete the design change.","디자인 변경을 삭제할 수 없습니다.",module,Magento_Backend
 "Store Design","스토어 디자인",module,Magento_Backend
 "Edit Store Design Change","스토어 디자인 변경 수정",module,Magento_Backend
 "You saved the design change.","디자인 변경을 저장했습니다.",module,Magento_Backend
@@ -245,25 +244,18 @@ System,시스템,module,Magento_Backend
 "Something went wrong. Please try again.","문제가 발생했습니다. 다시 시도해 주십시오.",module,Magento_Backend
 "This store cannot be deleted.","해당 스토어는 삭제할 수 없습니다.",module,Magento_Backend
 "You deleted the store.","스토어를 삭제하였습니다.",module,Magento_Backend
-"Unable to delete the store. Please try again later.","스토어를 삭제할 수 없습니다. 잠시후 다시 시도해 주십시오.",module,Magento_Backend
 "This store view cannot be deleted.","해당 스토어뷰는 삭제할 수 없습니다.",module,Magento_Backend
 "Store View",스토어뷰,module,Magento_Backend
 "You deleted the store view.","스토어뷰를 삭제하였습니다.",module,Magento_Backend
-"Unable to delete the store view. Please try again later.","스토어뷰를 삭제할 수 없습니다. 잠시후 다시 시도해 주십시오.",module,Magento_Backend
 "This website cannot be deleted.","해당 웹사이트는 삭제할 수 없습니다.",module,Magento_Backend
 "You deleted the website.","웹사이트를 삭제했습니다.",module,Magento_Backend
-"Unable to delete the website. Please try again later.","웹사이트를 삭제할 수 없습니다. 잠시후 다시 시도해 주십시오.",module,Magento_Backend
 "The website does not exist.","웹사이트가 존재하지 않습니다.",module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","웹사이트 코드를 수정하기 전에 index.php 파일에서 사용되고 있지 않은지 반드시 확인해 주시기 바랍니다.",module,Magento_Backend
 "The store does not exist","스토어가 존재하지 않습니다.",module,Magento_Backend
-"Store view doesn't exist","스토어뷰가 존재하지 않습니다.",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","스토어뷰 코드를 수정하기 전에 index.php 파일에서 사용되고 있지 않은지 반드시 확인해 주시기 바랍니다.",module,Magento_Backend
-"All Stores","모든 스토어",module,Magento_Backend
 "You saved the website.","웹사이트를 저장했습니다.",module,Magento_Backend
-"The default store cannot be disabled","기본 스토어는 비활성화될 수 없습니다.",module,Magento_Backend
-"You saved the store view.","스토어뷰를 저장했습니다.",module,Magento_Backend
-"An inactive store view cannot be saved as default store view","비활성화된 스토어뷰는 기본 스토어뷰가 될 수 없습니다.",module,Magento_Backend
 "You saved the store.","스토어를 저장했습니다.",module,Magento_Backend
+"You saved the store view.","스토어뷰를 저장했습니다.",module,Magento_Backend
 "Something went wrong while saving. Please review the error log.","저장중 문제가 발생했습니다. 에러 로그를 확인해 주십시오.",module,Magento_Backend
 "Last 24 Hours","지난 24시간",module,Magento_Backend
 "Last 7 Days","지난 7일",module,Magento_Backend
@@ -271,8 +263,6 @@ System,시스템,module,Magento_Backend
 "Authentication storage is incorrect.","인증 저장소가 잘못되었습니다.",module,Magento_Backend
 "You did not sign in correctly or your account is temporarily disabled.","올바르게 로그인하지 않았거나 일시적으로 사용이 중지된 계정입니다.",module,Magento_Backend
 "Authentication error occurred.","인증 에러 발생.",module,Magento_Backend
-"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","관리자 새션 수면은 31536000초(1년) 이하여야 합니다.",module,Magento_Backend
-"Admin session lifetime must be greater than or equal to 60 seconds","관리자 새션 수면은 60초 이상이어야 합니다.",module,Magento_Backend
 Order,주문,module,Magento_Backend
 "Order #%1","주문번호 %1",module,Magento_Backend
 "Access denied","접근 거부",module,Magento_Backend
@@ -311,6 +301,7 @@ Minute,분,module,Magento_Backend
 "JavaScript may be disabled in your browser.","브라우저에서 자바스크립트가 비활성화되었을 수 있습니다.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","웹사이트를 이용하기 위해서는 먼저 브라우저에서 자바스크립트를 활성화 시켜야 합니다.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","데모사이트 입니다. 상품 주문은 가능하지만 실제 처리되지는 않습니다.",module,Magento_Backend
+"Report Bugs","버그 보고",module,Magento_Backend
 "Store View:",스토어뷰:,module,Magento_Backend
 "Stores Configuration","스토어 설정",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","적용 범위 변경을 확인해 주십시오. 저장하지 않은 모든 데이터가 삭제됩니다.",module,Magento_Backend
@@ -318,7 +309,6 @@ Minute,분,module,Magento_Backend
 "Flush Catalog Images Cache","카탈로그 이미지 캐시 비우기",module,Magento_Backend
 "Pregenerated product images files","미리 생성된 상품 이미지 파일",module,Magento_Backend
 "Flush JavaScript/CSS Cache","자바스크립트/CSS Cache 비우기",module,Magento_Backend
-"Themes JavaScript and CSS files combined to one file","테마의 자바스크립트와 CSS가 하나의 파일로 결합됩니다.",module,Magento_Backend
 "Flush Static Files Cache","정적 파일 캐시 비우기",module,Magento_Backend
 "Preprocessed view files and static files","전처리 파일 및 정적 파일",module,Magento_Backend
 Catalog,카탈로그,module,Magento_Backend
@@ -399,9 +389,26 @@ Exclude,제외,module,Magento_Backup
 "Create Backup","백업 생성",module,Magento_Backup
 Country,국가,module,Magento_Braintree
 "Add Rule","규칙 추가",module,Magento_Braintree
-"Sorry, but something went wrong","죄송 합니다, 하지만 뭔가 잘못되었습니다.",module,Magento_Braintree
+"Stored Card","저장된 카드",module,Magento_Braintree
+"Credit card successfully added","신용 카드를 성공적으로 등록하였습니다.",module,Magento_Braintree
+"Something went wrong while saving the card.","카드를 저장하는 동안 오류가 발생했습니다.",module,Magento_Braintree
+"Delete Credit Card","신용 카드 삭제",module,Magento_Braintree
+"There was error deleting the credit card","신용 카드를 삭제 하는 오류가 발생 했습니다.",module,Magento_Braintree
+"Credit card successfully deleted","신용 카드를 성공적으로 제거하였습니다.",module,Magento_Braintree
+"Edit Credit Card","신용 카드 편집",module,Magento_Braintree
+"My Credit Cards","내 신용카드",module,Magento_Braintree
+"New Credit Card","새 신용카드",module,Magento_Braintree
 "--Please Select--",--선택하세요--,module,Magento_Braintree
+"Please Select",선택하세요,module,Magento_Braintree
+Back,이전,module,Magento_Braintree
+"* Required Fields","* 필수 항목",module,Magento_Braintree
+"First Name",이름,module,Magento_Braintree
+"Last Name",성,module,Magento_Braintree
+Company,회사,module,Magento_Braintree
+State/Province,시/도,module,Magento_Braintree
+"Zip/Postal Code",우편번호,module,Magento_Braintree
 Actions,동작,module,Magento_Braintree
+Edit,수정,module,Magento_Braintree
 "Percent Discount","비율 할인",module,Magento_Bundle
 "-- Select --","-- 선택 --",module,Magento_Bundle
 Dynamic,동적,module,Magento_Bundle
@@ -422,39 +429,30 @@ Delete,삭제,module,Magento_Bundle
 "Can not find product link with id ""%1""","ID ""%1""을 가진 상품 링크를 찾을 수 없습니다.",module,Magento_Bundle
 "Product with specified sku: ""%1"" does not contain option: ""%2""","지정된 SKU ""%1""의 상품이 다음 옵션을 가지고 있지 않습니다: ""%2""",module,Magento_Bundle
 "Product with specified sku: %1 is not a bundle product","지정된 SKU %1의 상품은 번들 상품이 아닙니다.",module,Magento_Bundle
-"%fieldName is a required field.","%fieldName은(는) 필수 항목 입니다.",module,Magento_Bundle
 "Cannot delete option with id %1","다음 id의 옵션을 삭제할 수 없습니다: %1",module,Magento_Bundle
 "Could not save option","옵션을 저장할 수 없습니다.",module,Magento_Bundle
 "Price Range","가격 범위",module,Magento_Bundle
-Together,같이,module,Magento_Bundle
-Separately,별도로,module,Magento_Bundle
 "Please specify product option(s).","상품 옵션을 지정해 주십시오.",module,Magento_Bundle
 "The options you selected are not available.","선택하신 옵션은 사용할 수 없습니다.",module,Magento_Bundle
 "The required options you selected are not available.","선택하신 필수 옵션은 사용할 수 없습니다.",module,Magento_Bundle
 "Please select all required options.","모든 필수 옵션을 선택 하십시오.",module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","일시적으로 해당 상품을 장바구니에 추가할 수 없습니다.",module,Magento_Bundle
 Percent,퍼센트,module,Magento_Bundle
-Cancel,취소,module,Magento_Bundle
-"Add Selected Products","선택된 상품 추가",module,Magento_Bundle
-"Add Option","옵션 추가",module,Magento_Bundle
-"New Option","신규 옵션",module,Magento_Bundle
-"Option Title","옵션 타이틀",module,Magento_Bundle
-"Default Title","기본 타이틀",module,Magento_Bundle
-"Store View Title","스토어뷰 타이틀",module,Magento_Bundle
-"Input Type","입력 타입",module,Magento_Bundle
-Drop-down,드롭다운,module,Magento_Bundle
-"Radio Buttons","라디오 버튼",module,Magento_Bundle
-Checkbox,체크박스,module,Magento_Bundle
-"Multiple Select",다중선택,module,Magento_Bundle
-Required,"필수 항목",module,Magento_Bundle
-Name,이름,module,Magento_Bundle
-"Default Quantity","기본 수량",module,Magento_Bundle
-"Price Type","가격 타입",module,Magento_Bundle
 None,없음,module,Magento_Bundle
 Quantity:,수량:,module,Magento_Bundle
 "Ship Bundle Items","번들상품 배송",module,Magento_Bundle
+Separately,별도로,module,Magento_Bundle
+Together,같이,module,Magento_Bundle
+"Option Title","옵션 타이틀",module,Magento_Bundle
+"Store View Title","스토어뷰 타이틀",module,Magento_Bundle
+"Input Type","입력 타입",module,Magento_Bundle
+Required,"필수 항목",module,Magento_Bundle
 "There are no products in this option.","해당 옵션에는 상품이 없습니다.",module,Magento_Bundle
+"New Option","신규 옵션",module,Magento_Bundle
 Default,기본,module,Magento_Bundle
+Name,이름,module,Magento_Bundle
+"Price Type","가격 타입",module,Magento_Bundle
+"Default Quantity","기본 수량",module,Magento_Bundle
 Invoiced,청구됨,module,Magento_Bundle
 Canceled,취소됨,module,Magento_Bundle
 "Regular Price","일반 가격",module,Magento_Bundle
@@ -476,14 +474,12 @@ Subtotal,소계,module,Magento_Bundle
 Always,항상,module,Magento_Captcha
 "Incorrect CAPTCHA","올바르지 않은 보안문자(CAPTCHA) 입니다",module,Magento_Captcha
 "Incorrect CAPTCHA.","올바르지 않은 보안문자(CAPTCHA) 입니다.",module,Magento_Captcha
-"The account is locked. Please wait and try again or contact %1.","계정이 잠겨 있습니다. 기다렸다 다시 시도하시거나 %1로 연락하세요.",module,Magento_Captcha
 "Please enter the letters from the image","이미지에 보이는 문자를 입력해 주십시오.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>
  주의</strong>
  : 보안문자(CAPTCHA)는 대소문자를 구분합니다.",module,Magento_Captcha
 "Reload captcha","보안문자(Captcha)를 리로드",module,Magento_Captcha
 "Please type the letters below","아래의 문자를 입력하십시오",module,Magento_Captcha
-"Category ""%1"" has not been created.","카테고리 ""%1""이 생성되지 않았습니다.",module,Magento_CatalogImportExport
 "Please enter a value for title.","타이틀 밸류를 입력해 주십시오.",module,Magento_CatalogImportExport
 "Please correct the parameters.","파라메터를 수정해 주십시오.",module,Magento_CatalogImportExport
 "ALL GROUPS","모든 그룹",module,Magento_CatalogInventory
@@ -498,27 +494,24 @@ Always,항상,module,Magento_Captcha
 "Allow Qty Below 0","0 이하의 수량을 허용",module,Magento_CatalogInventory
 "Allow Qty Below 0 and Notify Customer","0 이하의 수량을 허용하고 고객에게 통보",module,Magento_CatalogInventory
 "In Stock","재고 있음",module,Magento_CatalogInventory
-"Unable to save Stock","재고를 저장할 수 없습니다.",module,Magento_CatalogInventory
-"Unable to save Stock Status","재고 상태를 저장할 수 없습니다.",module,Magento_CatalogInventory
-"Unable to remove Stock Status for product %1","상품 %1의 재고 상태를 삭제할 수 없습니다.",module,Magento_CatalogInventory
 "Not all of your products are available in the requested quantity.","모든 제품이 요청된 수량을 가지고 있지 않습니다.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","SKU ""%1"" 상품이 존재하지 않습니다.",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","가장 적은 결제 금액은 %1 입니다.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","몇가지 제품의 수량을 수정해 주시기 바랍니다.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","가장 많은 결제 금액은 %1 입니다.",module,Magento_CatalogInventory
 "Decimal qty increments is not allowed.","수량 증가값에 소수점은 사용할 수 없습니다.",module,Magento_CatalogInventory
-"Stock Status","재고 상태",module,Magento_CatalogInventory
-Quantity,수량,module,Magento_CatalogInventory
 "Product availability","상품 재고상태",module,Magento_CatalogInventory
 "Product Name",상품명,module,Magento_CatalogInventory
 Qty,수량,module,Magento_CatalogInventory
-"Delete Rule","규칙 삭제",module,Magento_CatalogRule
-Reset,초기화,module,Magento_CatalogRule
-"Save and Apply","저장하고 적용",module,Magento_CatalogRule
-Save,저장,module,Magento_CatalogRule
 "Catalog Price Rule","카탈로그 가격 규칙",module,Magento_CatalogRule
 "Add New Rule","신규 규칙 추가",module,Magento_CatalogRule
 "Apply Rules","규칙 적용",module,Magento_CatalogRule
+"Save and Apply","저장하고 적용",module,Magento_CatalogRule
+Actions,동작,module,Magento_CatalogRule
+Apply,적용,module,Magento_CatalogRule
+"Discount Amount","할인 금액",module,Magento_CatalogRule
+No,아니오,module,Magento_CatalogRule
+Yes,네,module,Magento_CatalogRule
 Product,상품,module,Magento_CatalogRule
 Promotions,프로모션,module,Magento_CatalogRule
 "New Catalog Price Rule","신규 카탈로그 가격 규칙",module,Magento_CatalogRule
@@ -543,7 +536,6 @@ Relevance,연관성,module,Magento_CatalogSearch
 "up to %1","최대 %1",module,Magento_CatalogSearch
 Category,카테고리,module,Magento_CatalogSearch
 "%1 and above","%1 이상",module,Magento_CatalogSearch
-"Sorry, something went wrong. You can find out more in the error log.","죄송합니다, 문제가 발생했습니다. 에러 로그에서 자세한 사항을 확인할 수 있습니다.",module,Magento_CatalogSearch
 Product,상품,module,Magento_CatalogSearch
 "Search Settings","검색 설정",module,Magento_CatalogSearch
 Search,검색,module,Magento_CatalogSearch
@@ -566,12 +558,18 @@ name,이름,module,Magento_CatalogSearch
 "Add to Wish List","위시리스트에 추가",module,Magento_CatalogWidget
 "Add to Compare","비교하기에 추가",module,Magento_CatalogWidget
 Root,최상위,module,Magento_Catalog
-Delete,삭제,module,Magento_Catalog
-Save,저장,module,Magento_Catalog
+"Save Category","카테고리 저장",module,Magento_Catalog
+"Delete Category","카테고리 삭제",module,Magento_Catalog
+Reset,초기화,module,Magento_Catalog
+"New Subcategory","신규 하위 카테고리",module,Magento_Catalog
+"New Root Category","신규 최상위 카테고리",module,Magento_Catalog
+"Set Root Category for Store","스토어 최상위 카테고리 설정",module,Magento_Catalog
 "Use Config Settings","스토어 설정값 사용",module,Magento_Catalog
 "Use All Available Attributes","사용 가능한 모든 어트리뷰트 사용",module,Magento_Catalog
 Name,이름,module,Magento_Catalog
 Price,가격,module,Magento_Catalog
+"Category Data","카테고리 데이터",module,Magento_Catalog
+"Category Products","카테고리 상품",module,Magento_Catalog
 "Add Subcategory","하위 카테고리 추가",module,Magento_Catalog
 "Add Root Category","최상위 카테고리 추가",module,Magento_Catalog
 Day,일,module,Magento_Catalog
@@ -589,11 +587,10 @@ Year,년,module,Magento_Catalog
 label,라벨,module,Magento_Catalog
 "Product Attributes","상품 어트리뷰트",module,Magento_Catalog
 "Add New Attribute","신규 어트리뷰트 추가",module,Magento_Catalog
-Cancel,취소,module,Magento_Catalog
-"Save Attribute","어트리뷰트 저장",module,Magento_Catalog
 "Save in New Attribute Set","신규 어트리뷰트 세트에 저장",module,Magento_Catalog
 "Enter Name for New Attribute Set","신규 어트리뷰트 세트의 이름을 입력하십시오.",module,Magento_Catalog
 "Save and Continue Edit","저장하고 계속 편집하기",module,Magento_Catalog
+"Save Attribute","어트리뷰트 저장",module,Magento_Catalog
 "Delete Attribute","어트리뷰트 삭제",module,Magento_Catalog
 "Edit Product Attribute ""%1""","상품 어트리뷰트 ""%1"" 수정",module,Magento_Catalog
 "New Product Attribute","신규 상품 어트리뷰트",module,Magento_Catalog
@@ -602,14 +599,12 @@ Cancel,취소,module,Magento_Catalog
 "Default Value",기본값,module,Magento_Catalog
 "Unique Value","고유한 값",module,Magento_Catalog
 "Unique Value (not shared with other products)","고유한 값(다른 상품과 공유하지 않음)",module,Magento_Catalog
-"Not shared with other products.","다른 상품과 공유하지 않음",module,Magento_Catalog
 "Add to Column Options","컬럼 옵션에 추가",module,Magento_Catalog
 "Use in Filter Options","필터 옵션에 사용",module,Magento_Catalog
 "Store View",스토어뷰,module,Magento_Catalog
 Website,웹사이트,module,Magento_Catalog
 Global,글로벌,module,Magento_Catalog
 Scope,적용범위,module,Magento_Catalog
-"Declare attribute value saving scope.","속성값 적용 범위를 선언하십시오.",module,Magento_Catalog
 "Storefront Properties","스토어프론트 속성",module,Magento_Catalog
 "Use in Search","검색에 사용",module,Magento_Catalog
 "Visible in Advanced Search","고급 검색에 노출",module,Magento_Catalog
@@ -633,7 +628,8 @@ Properties,속성,module,Magento_Catalog
 "Delete Selected Group","선택 그룹 삭제",module,Magento_Catalog
 "Add New","신규 추가",module,Magento_Catalog
 Back,뒤로,module,Magento_Catalog
-Reset,초기화,module,Magento_Catalog
+Delete,삭제,module,Magento_Catalog
+Save,저장,module,Magento_Catalog
 "New Set Name","신규 세트 이름",module,Magento_Catalog
 "Edit Attribute Set '%1'","%1 어트리뷰트 세트 수정",module,Magento_Catalog
 "Add Attribute","어트리뷰트 추가",module,Magento_Catalog
@@ -653,7 +649,6 @@ Attributes,어트리뷰트,module,Magento_Catalog
 Change,변경,module,Magento_Catalog
 Websites,웹사이트,module,Magento_Catalog
 "Products Information","상품 정보",module,Magento_Catalog
-"Create Category","카테고리 만들기",module,Magento_Catalog
 "Category Name","카테고리 이름",module,Magento_Catalog
 "Parent Category","상위 카테고리",module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">
@@ -685,6 +680,7 @@ Edit,수정,module,Magento_Catalog
 "Are you sure?",정말입니까?,module,Magento_Catalog
 "Change Status","상태 변경",module,Magento_Catalog
 "Update Attributes","어트리뷰트 업데이트",module,Magento_Catalog
+"Delete image","이미지 삭제",module,Magento_Catalog
 "New Category","신규 카테고리",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","이미지 (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","신규 이미지 추가",module,Magento_Catalog
@@ -704,21 +700,21 @@ None,없음,module,Magento_Catalog
 "Price: %1","가격: %1",module,Magento_Catalog
 "Special Price: %1","특별 가격: %1",module,Magento_Catalog
 "Special Products","특별 상품",module,Magento_Catalog
-"Manage Catalog Categories","카탈로그 카테고리 관리",module,Magento_Catalog
-"Manage Categories","카테고리 관리",module,Magento_Catalog
 "You deleted the category.","카테고리를 삭제하였습니다.",module,Magento_Catalog
 "Something went wrong while trying to delete the category.","카테고리 삭제중 문제가 발생했습니다.",module,Magento_Catalog
 Categories,카테고리,module,Magento_Catalog
+"Manage Catalog Categories","카탈로그 카테고리 관리",module,Magento_Catalog
+"Manage Categories","카테고리 관리",module,Magento_Catalog
 "Category is not available for requested store.","요청한 스토어에서 해당 카테고리를 사용할 수 없습니다.",module,Magento_Catalog
 "There was a category move error.","카테고리 이동중 에러가 발생했습니다.",module,Magento_Catalog
+"There was a category move error. %1","카테고리 이동중 에러가 발생했습니다. %1",module,Magento_Catalog
+"You moved the category","카테고리를 옮겼습니다.",module,Magento_Catalog
 "Attribute ""%1"" is required.","어트리뷰트 ""%1""은(는) 필수 입니다.",module,Magento_Catalog
-"You saved the category.","카테고리를 저장했습니다.",module,Magento_Catalog
 "Something went wrong while saving the category.","카테고리 저장중 문제가 발생했습니다.",module,Magento_Catalog
+"You saved the category.","카테고리를 저장했습니다.",module,Magento_Catalog
 "Please select products for attributes update.","어트리뷰트 업데이트를 위한 상품을 선택해 주십시오.",module,Magento_Catalog
 "A total of %1 record(s) were updated.","총 %1개의 레코드가 업데이트 되었습니다.",module,Magento_Catalog
 "Something went wrong while updating the product(s) attributes.","상품 어트리뷰트 업데이트중 문제가 발생했습니다.",module,Magento_Catalog
-"Unable to add attribute","어트리뷰트를 추가할 수 없습니다.",module,Magento_Catalog
-"Please, specify attributes","어트리뷰트를 지정해 주십시오.",module,Magento_Catalog
 Catalog,카탈로그,module,Magento_Catalog
 "Manage Product Attributes","상품 어트리뷰트 관리",module,Magento_Catalog
 "You deleted the product attribute.","상품 어트리뷰트를 삭제하였습니다.",module,Magento_Catalog
@@ -731,8 +727,6 @@ Catalog,카탈로그,module,Magento_Catalog
 "An attribute with this code already exists.","해당 코드를 가진 어트리뷰트가 이미 존재합니다.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","동일한 코드(%1)을 가진 어트리뷰트가 이미 존재합니다.",module,Magento_Catalog
 "You duplicated the product.","상품을 복제하였습니다.",module,Magento_Catalog
-"This product doesn't exist.","해당 상품이 존재하지 않습니다.",module,Magento_Catalog
-"Invalid product id. Should be numeric value greater than 0","잘못된 상품 ID입니다. 0보다 큰 숫자를 입력해야 합니다.",module,Magento_Catalog
 Products,상품,module,Magento_Catalog
 "A group with the same name already exists.","동일한 이름의 그룹이 이미 존재합니다.",module,Magento_Catalog
 "Something went wrong while saving this group.","해당 그룹 저장중 문제가 발생했습니다.",module,Magento_Catalog
@@ -759,7 +753,6 @@ Grid,그리드,module,Magento_Catalog
 List,리스트,module,Magento_Catalog
 All,모두,module,Magento_Catalog
 "Product is not loaded","상품이 로드되지 않았습니다.",module,Magento_Catalog
-"Something went wrong while getting the image url.","이미지 URL을 가져오는중 문제가 발생했습니다.",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","어트리뷰트 밸류 ""%1""은(는) 고유값이어야 합니다.",module,Magento_Catalog
 "Products only",상품만,module,Magento_Catalog
 "Static block only","정적 블럭만",module,Magento_Catalog
@@ -784,15 +777,13 @@ Top/Right,상단/우측,module,Magento_Catalog
 Bottom/Left,하단/좌측,module,Magento_Catalog
 Bottom/Right,하단/우측,module,Magento_Catalog
 Center,중앙,module,Magento_Catalog
-"Something went wrong while saving the file(s).","파일 저장중 문제가 발생했습니다.",module,Magento_Catalog
-"File can not be saved to the destination folder.","폴더에 파일을 저장할 수 없습니다.",module,Magento_Catalog
 "Unsupported product type ""%1"".","지원하지 않는 제품 타입 ""%1"".",module,Magento_Catalog
 "Please correct the category.","카테고리를 수정해 주십시오.",module,Magento_Catalog
 "The attribute model is not defined.","어트리뷰트 모델이 정의되지 않았습니다.",module,Magento_Catalog
 Category,카테고리,module,Magento_Catalog
 "%1 and above","%1 이상",module,Magento_Catalog
-"Product was not registered","상품이 등록되지 않았습니다.",module,Magento_Catalog
-"Store was not registered","스토어가 등록되지 않았습니다.",module,Magento_Catalog
+"The image does not exist.","이미지가 존재하지 않습니다.",module,Magento_Catalog
+"Please correct the image file type.","이미지 파일 타입을 수정해 주십시오.",module,Magento_Catalog
 "Group price must be a number greater than 0.","그룹 가격은 반드시 0보다 커야합니다.",module,Magento_Catalog
 "Please enter a number 0 or greater in this field.","0 이상의 숫자를 입력해 주십시오.",module,Magento_Catalog
 "The value of attribute ""%1"" must be set","어트리뷰트 ""%1""의 밸류는 필수입니다.",module,Magento_Catalog
@@ -801,13 +792,11 @@ Category,카테고리,module,Magento_Catalog
 "Invalid option id %1","옵션 id %1이(가) 올바르지 않습니다.",module,Magento_Catalog
 Enabled,활성화,module,Magento_Catalog
 "Attribute Set already exists.","어트리뷰트 세트가 이미 존재합니다.",module,Magento_Catalog
+"Requested product does not support images.","요청하신 상품은 이미지를 지원하지 않습니다.",module,Magento_Catalog
 "The image content is not valid.","유효 이미지 콘텐츠 입니다.",module,Magento_Catalog
 "Cannot save product.","상품을 저장할 수 없습니다.",module,Magento_Catalog
 "Failed to save new media gallery entry.","새로운 미디어 갤러리 항목을 저장하지 못했습니다.",module,Magento_Catalog
 "There is no image with provided ID.","제공된 ID와 일치하는 이미지가 없습니다.",module,Magento_Catalog
-"The image does not exist.","이미지가 존재하지 않습니다.",module,Magento_Catalog
-"Please correct the image file type.","이미지 파일 타입을 수정해 주십시오.",module,Magento_Catalog
-"ProductSku should be specified","상품 SKU를 지정해 주십시오.",module,Magento_Catalog
 "Please specify date required option(s).","필수 날짜 옵션을 지정해 주십시오.",module,Magento_Catalog
 "Please specify time required option(s).","필수 시간 옵션을 지정해 주십시오.",module,Magento_Catalog
 "The file options format is not valid.","파일 옵션 타입이 유효 하지 않습니다.",module,Magento_Catalog
@@ -821,9 +810,9 @@ Enabled,활성화,module,Magento_Catalog
 "The file is empty. Please choose another one","파일이 비어있습니다. 다른 파일을 선택해 주십시오.",module,Magento_Catalog
 "Some of the selected item options are not currently available.","선택한 옵션중 현재 사용 불가한것이 있습니다.",module,Magento_Catalog
 "The text is too long.","텍스트가 너무깁니다.",module,Magento_Catalog
-"Could not save group price","그룹 가격을 저장할 수 없습니다.",module,Magento_Catalog
 "Please provide valid data","유효한 데이터를 제공해 주십시오.",module,Magento_Catalog
 "Values of following attributes are invalid: %1","다음 어트리뷰트의 밸류가 잘못되었습니다: %1",module,Magento_Catalog
+"Could not save group price","그룹 가격을 저장할 수 없습니다.",module,Magento_Catalog
 "The file upload failed.","파일 업로드에 실패했습니다.",module,Magento_Catalog
 "The product has required options.","상품에 필수 옵션이 있습니다.",module,Magento_Catalog
 "Something went wrong while processing the request.","요청을 처리하는 도중 문제가 발생했습니다.",module,Magento_Catalog
@@ -834,64 +823,24 @@ Search,검색,module,Magento_Catalog
 "Something went wrong while adding products to websites.","웹사이트에 상품을 저장중 문제가 발생했습니다.",module,Magento_Catalog
 "Group with id ""%1"" does not exist.","ID ""%1"" 그룹이 존재하지 않습니다.",module,Magento_Catalog
 "Attribute group that contains system attributes can not be deleted","시스템 어트리뷰트를 가진 어트리뷰트 세트는 삭제할 수 없습니다.",module,Magento_Catalog
-"Product with SKU '%1' is not linked to product with SKU '%2'","SKU '%1' 상품은 SKU '%2' 상품과 연결되어있지 않습니다.",module,Magento_Catalog
-"Requested product does not support images.","요청하신 상품은 이미지를 지원하지 않습니다.",module,Magento_Catalog
+"Product with SKU %1 is not linked to product with SKU %2","SKU '%1' 상품은 SKU '%2' 상품과 연결되어있지 않습니다.",module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","SKU ""%1"" 상품이 존재하지 않습니다.",module,Magento_Catalog
 "Invalid product data: %1","상품 데이터가 올바르지 않습니다: %1",module,Magento_Catalog
 "Unable to remove product %1","상품 %1을 제거할 수 없습니다.",module,Magento_Catalog
 "There are not websites for assign to product","상품을 지정할 웹사이트가 없습니다.",module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","상품 ""%1""을(를) 웹사이트 ""%2""에 지정할 수 없습니다.",module,Magento_Catalog
 "Could not save product ""%1"" with websites %2","웹사이트 ""%2""의 상품 ""%1""을 저장할 수 없습니다.",module,Magento_Catalog
-"We cannot determine the field name.","필드명을 특정지을 수 없습니다.",module,Magento_Catalog
 "Do not change the scope. %1","적용점위를 변경하지 마십시오. %1",module,Magento_Catalog
-"Product with SKU %1 is not linked to product with SKU %2","SKU '%1' 상품은 SKU '%2' 상품과 연결되어있지 않습니다.",module,Magento_Catalog
 "Multiple Select",다중선택,module,Magento_Catalog
 Dropdown,드롭다운,module,Magento_Catalog
 message,메세지,module,Magento_Catalog
-Images,이미지,module,Magento_Catalog
 Select...,선택...,module,Magento_Catalog
-"Customer Group","고객 그룹",module,Magento_Catalog
-Done,완료,module,Magento_Catalog
-"Add Selected","선택항목 추가",module,Magento_Catalog
-"Select Attribute","어트리뷰트 선택",module,Magento_Catalog
-"Create New Attribute","신규 어트리뷰트 추가",module,Magento_Catalog
-"Add Option","옵션 추가",module,Magento_Catalog
-"New Option","신규 옵션",module,Magento_Catalog
-"Select Product","상품 선택",module,Magento_Catalog
-"Option Title","옵션 타이틀",module,Magento_Catalog
-"Add Value","밸루 추가",module,Magento_Catalog
-Title,타이틀,module,Magento_Catalog
-"Option Type","옵션 타입",module,Magento_Catalog
-Required,필수,module,Magento_Catalog
-"Price Type","가격 타입",module,Magento_Catalog
-"Max Characters","최대 글자수",module,Magento_Catalog
-"Compatible File Extensions","호환 가능한 파일 확장자",module,Magento_Catalog
-"Maximum Image Size","최대 이미지 사이즈",module,Magento_Catalog
-"Please leave blank if it is not an image.","이미지가 아니면 빈칸으로 두십시오.",module,Magento_Catalog
-"This item has weight","해당 상품은 중량이 있습니다.",module,Magento_Catalog
-"This item has no weight","해당 상품은 중량이 없습니다.",module,Magento_Catalog
-"Set Product as New From","상품을 신규 상태로 설정 From",module,Magento_Catalog
-"Related Products, Up-Sells, and Cross-Sells","관련 상품, 상향판매, 교차판매",module,Magento_Catalog
-"Add Related Products","관련 상품 추가",module,Magento_Catalog
-"An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.","상향판매 상품은 고객이 보고있는 제품에 비해 가격이 비싸거나 고품질의 상품을 제안합니다.",module,Magento_Catalog
-"Add Up-Sell Products","상향판매 상품 추가",module,Magento_Catalog
-"Up-Sell Products","상향판매 상품",module,Magento_Catalog
-"Add Cross-Sell Products","교차판매 상품 추가",module,Magento_Catalog
-"Cross-Sell Products","교차판매 상품",module,Magento_Catalog
-"Add Selected Products","선택 상품 추가",module,Magento_Catalog
-Remove,삭제,module,Magento_Catalog
-Thumbnail,썸네일,module,Magento_Catalog
-"Product in Websites","웹사이트 상품",module,Magento_Catalog
-name,이름,module,Magento_Catalog
-"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">
- Products &gt; Categories</a>
- .",module,Magento_Catalog
 "This operation can take a long time","이 작업은 시간이 걸립니다.",module,Magento_Catalog
 "Collapse All","모두 접기",module,Magento_Catalog
 "Expand All","모두 확장",module,Magento_Catalog
 "Use Default Value","기본값 사용",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","타이틀 관리(사이즈, 색상 등)",module,Magento_Catalog
-"Manage Options (Values of Your Attribute)","옵션 관리(어트리뷰트 값)",module,Magento_Catalog
+"Add Option","옵션 추가",module,Magento_Catalog
 "Sort Option","정렬 옵션",module,Magento_Catalog
 Groups,그룹,module,Magento_Catalog
 "Double click on a group to rename it.","그룹을 더블클릭하면 이름을 바꿀 수 있습니다.",module,Magento_Catalog
@@ -918,21 +867,26 @@ Backorders,백오더,module,Magento_Catalog
 "Add Product To Websites","웹사이트에 상품 추가",module,Magento_Catalog
 "Remove Product From Websites","웹사이트에서 상품 삭제",module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","카탈로그나 검색에서 상품을 보이지 않게 하려면 상태를 ""비활성화""로 바꾸십시오.",module,Magento_Catalog
+"Option Title","옵션 타이틀",module,Magento_Catalog
 "Input Type","입력 타입",module,Magento_Catalog
+Required,필수,module,Magento_Catalog
+"Price Type","가격 타입",module,Magento_Catalog
+"Compatible File Extensions","호환 가능한 파일 확장자",module,Magento_Catalog
+"Maximum Image Size","최대 이미지 사이즈",module,Magento_Catalog
 "%1 <span>x</span> %2 <span>px.</span>","%1 <span>
  x</span>
  %2 <span>
  px.</span>",module,Magento_Catalog
+"Please leave blank if it is not an image.","이미지가 아니면 빈칸으로 두십시오.",module,Magento_Catalog
+Title,타이틀,module,Magento_Catalog
+"Max Characters","최대 글자수",module,Magento_Catalog
+"Customer Group","고객 그룹",module,Magento_Catalog
 "Item Price","상품 가격",module,Magento_Catalog
 "Product In Websites","웹사이트 상품",module,Magento_Catalog
 "(Copy data from: %1)","(%1에서 데이터 복사)",module,Magento_Catalog
-"Delete image","이미지 삭제",module,Magento_Catalog
 "Alt Text","대체 텍스트",module,Magento_Catalog
-"Image Size","이미지 사이즈",module,Magento_Catalog
-"Image Resolution","이미지 해상도",module,Magento_Catalog
 "Hide from Product Page","상품 페이지에서 숨기기",module,Magento_Catalog
 "Product Alerts","상픔 경고",module,Magento_Catalog
-"Allow Multiple Boxes for Shipping","배송시 복수 박스 포장 허용",module,Magento_Catalog
 "Basic Settings","기본 설정",module,Magento_Catalog
 "Advanced Settings","고급 설정",module,Magento_Catalog
 "This tab contains invalid data. Please resolve this before saving.","해당 탭에 잘못된 데이터가 있습니다. 문제를 해결한 후 저장해 주십시오.",module,Magento_Catalog
@@ -959,8 +913,8 @@ Compare,비교,module,Magento_Catalog
 "Clear All","모두 지우기",module,Magento_Catalog
 Prev,이전,module,Magento_Catalog
 Next,다음,module,Magento_Catalog
-"Learn More",더보기,module,Magento_Catalog
 "Add to Compare","비교하기에 추가",module,Magento_Catalog
+"Learn More",더보기,module,Magento_Catalog
 "select all","모두 선택",module,Magento_Catalog
 Show,보기,module,Magento_Catalog
 "per page","페이지 당",module,Magento_Catalog
@@ -1014,14 +968,12 @@ State/Province,시/도,module,Magento_Checkout
 "My Cart (1 item)","장바구니 (1 상품)",module,Magento_Checkout
 "My Cart (%1 items)","장바구니 (%1 상품)",module,Magento_Checkout
 "My Cart",장바구니,module,Magento_Checkout
-"For delivery questions.",배송문의,module,Magento_Checkout
+"Minimum order amount is %1","최소 주문 금액은 %1입니다.",module,Magento_Checkout
 "Customer is already registered","이미 가입된 고객입니다.",module,Magento_Checkout
 "Your session has expired","세션이 만료 되었습니다.",module,Magento_Checkout
-"A letter with further instructions will be sent to your email.","자세한 설명이 이메일로 보내집니다.",module,Magento_Checkout
 "You added %1 to your shopping cart.","장바구니에 %1을(를) 추가했습니다.",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","일시적으로 해당 상품을 장바구니에 추가할 수 없습니다.",module,Magento_Checkout
 "Out of stock",품절,module,Magento_Checkout
-"We can't find the quote item.","항목을 찾을 수 없습니다.",module,Magento_Checkout
 "You used coupon code ""%1"".","쿠폰코드 ""%1""을 사용했습니다.",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","쿠폰코드 ""%1""은(는) 올바르지 않습니다.",module,Magento_Checkout
 "You canceled the coupon code.","쿠폰코드를 취소했습니다.",module,Magento_Checkout
@@ -1038,16 +990,16 @@ Checkout,결제,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","주문을 처리하는 동안 오류가 발생하였습니다. 나중에 다시 시도하세요.",module,Magento_Checkout
 "We can't find the product.","해당 상품을 찾을 수 없습니다.",module,Magento_Checkout
 "The product does not exist.","해당 상품이 존재하지 않습니다.",module,Magento_Checkout
-"We don't have some of the products you want.","주문하시려는 상품 중 일부가 품절되었습니다.",module,Magento_Checkout
-"We don't have as many of some products as you want.","주문하시려는 상품은 충분한 수량이 남아있지 않습니다.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","수량이 %1에서 %2로 변경되었습니다.",module,Magento_Checkout
 "We adjusted product quantities to fit the required increments.","제품 수량을 조정하였습니다.",module,Magento_Checkout
 "This quote item does not exist.","이 항목은 존재 하지 않습니다.",module,Magento_Checkout
 "Display number of items in cart","장바구니에 상품 수량 표시",module,Magento_Checkout
 "Display item quantities","제품 수량 표시",module,Magento_Checkout
 "Shipping address is not set","배송 주소가 설정되지 않았습니다.",module,Magento_Checkout
-"Unable to save shipping information. Please check input data.","배송 정보를 저장할 수 없습니다. 입력된 데이터를 확인 하시기 바랍니다.",module,Magento_Checkout
+"Unable to save address. Please, check input data.","주소를 저장할 수 없습니다. 입력된 데이터를 확인 하시기 바랍니다.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","해당 배송사를 찾을 수 없습니다: %1, %2",module,Magento_Checkout
+"Unable to save shipping information. Please, check input data.","배송 정보를 저장할 수 없습니다. 입력된 데이터를 확인 하시기 바랍니다.",module,Magento_Checkout
+"Cart contains virtual product(s) only. Shipping address is not applicable.","장바구니에는 가상제품만 있습니다. 배송 주소는 적용되지 않습니다.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","장바구니가 비어 있어 배송방법을 적용할 수 없습니다.",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","장바구니가 비어 합계를 계산할 수 없습니다.",module,Magento_Checkout
 "Invalid data","유효하지 않은 데이터",module,Magento_Checkout
@@ -1059,6 +1011,7 @@ Checkout,결제,module,Magento_Checkout
  여기를 눌러« 2» 새로운 링크를 받을 수 있습니다.",module,Magento_Checkout
 "Error message!","에러 메시지!",module,Magento_Checkout
 Error!,에러!,module,Magento_Checkout
+"Wrong minimum amount.","잘못된 최소 수량",module,Magento_Checkout
 Message,메시지,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print""> 영수증 인쇄</a>",module,Magento_Checkout
 "Apply Discount Code","할인 코드 적용",module,Magento_Checkout
@@ -1092,23 +1045,35 @@ Loading...,로딩중...,module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.","주문 세부정보 및 배송 추적정보를 이메일로 보내드립니다.",module,Magento_Checkout
 "Static Blocks","정적 블럭",module,Magento_Cms
 "Add New Block","신규 블럭 추가",module,Magento_Cms
-Back,"뒤로 가기",module,Magento_Cms
-"Delete Block","블럭 삭제",module,Magento_Cms
-"Are you sure you want to do this?","정말로 이 작업을 수행하시겠습니까?",module,Magento_Cms
-Reset,초기화,module,Magento_Cms
-"Save and Continue Edit","저장하고 계속 편집하기",module,Magento_Cms
 "Save Block","블럭 저장",module,Magento_Cms
-Title,타이틀,module,Magento_Cms
+"Delete Block","블럭 삭제",module,Magento_Cms
+"Save and Continue Edit","저장하고 계속 편집하기",module,Magento_Cms
+"New Block","신규 블럭",module,Magento_Cms
+"General Information","기본 정보",module,Magento_Cms
+"Block Title","블럭 제목",module,Magento_Cms
 Identifier,식별자,module,Magento_Cms
+"Store View",스토어뷰,module,Magento_Cms
 Status,상태,module,Magento_Cms
 Enabled,활성화,module,Magento_Cms
+Content,컨텐츠,module,Magento_Cms
+Title,타이틀,module,Magento_Cms
 "Manage Pages","페이지 관리",module,Magento_Cms
 "Add New Page","신규 페이지 추가",module,Magento_Cms
-"Delete Page","페이지 삭제",module,Magento_Cms
 "Save Page","페이지 저장",module,Magento_Cms
-"URL Key","URL 키",module,Magento_Cms
+"Delete Page","페이지 삭제",module,Magento_Cms
+"New Page","신규 페이지",module,Magento_Cms
+"Content Heading","컨텐츠 해딩",module,Magento_Cms
 Layout,레이아웃,module,Magento_Cms
-"Store View",스토어뷰,module,Magento_Cms
+"Layout Update XML","레이아웃 업데이트 XML",module,Magento_Cms
+"-- Please Select --","-- 선택해주십시오 --",module,Magento_Cms
+"Custom Theme","커스텀 테마",module,Magento_Cms
+"Custom Layout","커스텀 레이아웃",module,Magento_Cms
+Design,디자인,module,Magento_Cms
+"Page Information","페이지 정보",module,Magento_Cms
+"Page Title","페이지 제목",module,Magento_Cms
+"URL Key","URL 키",module,Magento_Cms
+"Meta Keywords","메타 키워드",module,Magento_Cms
+"Meta Description","메타 설명",module,Magento_Cms
 Created,생성됨,module,Magento_Cms
 Modified,수정됨,module,Magento_Cms
 Preview,미리보기,module,Magento_Cms
@@ -1125,31 +1090,21 @@ Home,홈,module,Magento_Cms
 "You deleted the block.","블록을 삭제했습니다.",module,Magento_Cms
 "This block no longer exists.","블록이 존재하지 않습니다.",module,Magento_Cms
 "Edit Block","블럭 수정",module,Magento_Cms
-"New Block","신규 블럭",module,Magento_Cms
 Blocks,블럭,module,Magento_Cms
 "Please correct the data sent.","전송될 데이터를 수정해주십시오.",module,Magento_Cms
 "You saved the block.","블록을 저장했습니다.",module,Magento_Cms
-"Something went wrong while saving the block.","블럭 저장중 문제가 발생했습니다.",module,Magento_Cms
 "The page has been deleted.","페이지가 삭제되었습니다.",module,Magento_Cms
 "Edit Page","페이지 수정",module,Magento_Cms
-"New Page","신규 페이지",module,Magento_Cms
 Pages,페이지,module,Magento_Cms
 "Something went wrong while saving the page.","페이지 저장중 문제가 발생했습니다.",module,Magento_Cms
-"Page Title","페이지 제목",module,Magento_Cms
 "To apply changes you should fill in hidden required ""%1"" field","변경사항을 적용하기 위해서는 숨겨진 필수 항목 ""%1""이 필요합니다.",module,Magento_Cms
-"You saved the page.","페이지를 저장했습니다.",module,Magento_Cms
 "The directory %1 is not writable by server.","파일 디렉토리 '%1'은 쓰기 금지 입니다.",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.","정적 블럭 컨텐츠는 자기 자신을 참조할 수 없습니다.",module,Magento_Cms
 "CMS Block with id ""%1"" does not exist.","ID ""%1""의 CMS 블럭이 존재하지 않습니다.",module,Magento_Cms
 "Enabled by Default","기본으로 활성화",module,Magento_Cms
 "Disabled by Default","기본으로 미사용",module,Magento_Cms
 "Disabled Completely","완전히 미사용",module,Magento_Cms
-"This identifier is reserved for ""CMS No Route Page"" in configuration.","해당 식별자는 ""CMS No Route Page""에 예약되어 있습니다.",module,Magento_Cms
-"This identifier is reserved for ""CMS Home Page"" in configuration.","해당 식별자는 ""CMS 홈페이지"" 에 예약되어 있습니다.",module,Magento_Cms
-"This identifier is reserved for ""CMS No Cookies Page"" in configuration.","해당 식별자는 ""CMS No Cookies Page""에 예약되어 있습니다.",module,Magento_Cms
-"Could not save the page: %1","페이지를 저장할 수 없습니다: %1",module,Magento_Cms
 "CMS Page with id ""%1"" does not exist.","ID ""%1""의 CMS 페이지가 존재하지 않습니다.",module,Magento_Cms
-"Could not delete the page: %1","페이지를 삭제할 수 없습니다: %1",module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.","선택한 스토어에 동일한 블럭 식별자가 이미 존재합니다.",module,Magento_Cms
 "The page URL key contains capital letters or disallowed symbols.","페이지 URL 키에 대문자나 허용되지 않는 문자가 존재합니다.",module,Magento_Cms
 "The page URL key cannot be made of only numbers.","페이지 URL 키는 숫자로만 만들 수 없습니다.",module,Magento_Cms
@@ -1157,12 +1112,12 @@ Pages,페이지,module,Magento_Cms
 "We found a directory with the same name. Please try another folder name.","동일한 이름의 디렉토리가 있습니다. 다른 이름을 사용해 주십시오.",module,Magento_Cms
 "We cannot create a new directory.","신규 디렉토리를 만들 수 없습니다.",module,Magento_Cms
 "We cannot delete directory %1.","디렉토리 %1을(를) 삭제할 수 없습니다.",module,Magento_Cms
-"Privacy and Cookie Policy","개인 정보 및 쿠키 정책",module,Magento_Cms
-"Could not create a directory.","디렉토리를 만들 수 없습니다.",module,Magento_Cms
+"All Store Views","모든 스토어 뷰",module,Magento_Cms
 Edit,편집,module,Magento_Cms
 Delete,삭제,module,Magento_Cms
-"All Store Views","모든 스토어 뷰",module,Magento_Cms
-View,보기,module,Magento_Cms
+"Delete ${ $.$data.title }","${ $.$data.title } 삭제",module,Magento_Cms
+Details,"상세 정보",module,Magento_Cms
+"Delete ""${ $.$data.title }""","""${ $.$data.타이틀 }"" 삭제",module,Magento_Cms
 "No files found","파일을 찾을 수 없습니다.",module,Magento_Cms
 "Browse Files...","파일 찾기...",module,Magento_Cms
 "Collapse All","모두 접기",module,Magento_Cms
@@ -1172,7 +1127,6 @@ View,보기,module,Magento_Cms
 [GLOBAL],[글로벌],module,Magento_Config
 [WEBSITE],[웹사이트],module,Magento_Config
 "[STORE VIEW]",[스토어뷰],module,Magento_Config
-"Use system value","시스템 설정값 사용",module,Magento_Config
 "Use Default","기본값 사용",module,Magento_Config
 "Use Website","웹사이트 사용",module,Magento_Config
 Add,추가,module,Magento_Config
@@ -1220,19 +1174,17 @@ Yes,네,module,Magento_Config
 Delete,삭제,module,Magento_Config
 "Current Configuration Scope:","현재 설정 적용범위:",module,Magento_Config
 Stores,스토어,module,Magento_Config
-Save,저장,module,Magento_ConfigurableProduct
-"Save & Close","저장하고 닫기",module,Magento_ConfigurableProduct
 Summary,제목,module,Magento_ConfigurableProduct
 "Choose an Option...","옵션을 선택 하십시오...",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","요청한 옵션이 존재하지 않습니다.",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","요청한 옵션이 존재하지 않습니다: %1",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","해당 제품을 장바구니에 추가할 수 없습니다.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","상품 옵션을 선택해야 합니다.",module,Magento_ConfigurableProduct
-"Add Products Manually","수동으로 상품 등록",module,Magento_ConfigurableProduct
 Price,가격,module,Magento_ConfigurableProduct
-Weight,중량,module,Magento_ConfigurableProduct
 "Configurable products allow customers to choose options (Ex: shirt color).
             You need to create a simple product for each configuration (Ex: a product for each color).","Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).",module,Magento_ConfigurableProduct
+"Add Products Manually","수동으로 상품 등록",module,Magento_ConfigurableProduct
+Weight,중량,module,Magento_ConfigurableProduct
 Cancel,취소,module,Magento_ConfigurableProduct
 "Page not found.","페이지를 찾을 수 없습니다.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","문의주셔서 감사합니다. 곧 연락드리겠습니다.",module,Magento_Contact
@@ -1249,7 +1201,6 @@ Email,이메일,module,Magento_Contact
  .",module,Magento_Cookie
 "Allow Cookies","쿠키 허용",module,Magento_Cookie
 "Save Currency Rates","환율 저장",module,Magento_CurrencySymbol
-Options,옵션,module,Magento_CurrencySymbol
 Reset,초기화,module,Magento_CurrencySymbol
 Import,가져오기,module,Magento_CurrencySymbol
 "Manage Currency Rates","환율 관리",module,Magento_CurrencySymbol
@@ -1261,12 +1212,13 @@ Import,가져오기,module,Magento_CurrencySymbol
 "Currency Rates",환율,module,Magento_CurrencySymbol
 "All valid rates have been saved.","유효한 모든 환율이 저장되었습니다.",module,Magento_CurrencySymbol
 System,시스템,module,Magento_CurrencySymbol
-"You must first configure currency options before being able to see currency rates.","환율을 보기위해서는 먼저 통화 옵션을 설정해야만 합니다.",module,Magento_CurrencySymbol
 "Old rate:","구 환율:",module,Magento_CurrencySymbol
 "Please enter a valid email.","올바른 이메일 주소를 입력해주세요",module,Magento_CustomerImportExport
 "Please enter a password with a valid length.","유효한 길이의 암호를 입력 하십시오.",module,Magento_CustomerImportExport
 "Sign Out",로그아웃,module,Magento_Customer
 "Sign In",로그인,module,Magento_Customer
+"You subscribe to our newsletter.","뉴스 레터에 가입하셨습니다.",module,Magento_Customer
+"You don't subscribe to our newsletter.","뉴스 레터에 가입되어 있지 않습니다.",module,Magento_Customer
 "You have not set a default shipping address.","기본 배송지 주소를 설정하지 않았습니다.",module,Magento_Customer
 "You have not set a default billing address.","기본 구매자 주소를 설정하지 않았습니다.",module,Magento_Customer
 "Address Book",주소록,module,Magento_Customer
@@ -1340,7 +1292,6 @@ Download,다운로드,module,Magento_Customer
 "Edit Customer Group ""%1""","%1 고객 그룹 수정",module,Magento_Customer
 "Group Information","그룹 정보",module,Magento_Customer
 "Group Name","그룹 이름",module,Magento_Customer
-"Maximum length must be less then %1 characters.","최대 글자수는 %1 입니다.",module,Magento_Customer
 "Tax Class","세금 유형",module,Magento_Customer
 "The customer is now assigned to Customer Group %s.","고객이 %s 고객 그룹에 지정되었습니다.",module,Magento_Customer
 "Would you like to change the Customer Group for this order?","해당 주문을 위해 고객 그룹을 바꾸겠습니까?",module,Magento_Customer
@@ -1372,17 +1323,17 @@ Download,다운로드,module,Magento_Customer
 "Please make sure your passwords match.","비밀번호가 맞는지 확인해 주십시오.",module,Magento_Customer
 "Account Information","계정 정보",module,Magento_Customer
 "You saved the account information.","계정 정보를 저장하였습니다.",module,Magento_Customer
-"Password confirmation doesn't match entered password.","비밀번호 확인에 입력한 비밀번호가 맞지 않습니다.",module,Magento_Customer
-"The password doesn't match this account.","비밀번호가 일치하지 않습니다.",module,Magento_Customer
+"Please enter new password.","새로운 비밀번호를 입력해 주십시오.",module,Magento_Customer
+"Confirm your new password.","비밀번호를 재확인 합니다",module,Magento_Customer
+"Something went wrong while changing the password.","새로운 비밀번호를 저장하는 동안 오류가 발생했습니다.",module,Magento_Customer
 "Please correct the email address.","이메일 주소를 수정해 주십시오.",module,Magento_Customer
 "We're unable to send the password reset email.","비밀번호 재설정 이메일을 보낼 수 없습니다.",module,Magento_Customer
 "Please enter your email.","이메일을 입력해 주십시오.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","%1와 일치하는 계정이 있다면 이메일로 비밀번호를 재설정할 수 있는 링크를 받게 됩니다.",module,Magento_Customer
 "My Account","내 계정",module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","승인되지 않은 계정입니다. 확인메일을 다시 받으시려면 <a href=""%1"">이곳을 클릭</a>하세요.",module,Magento_Customer
-"An unspecified error occurred. Please contact us for assistance.","알수없는 문제가 발생했습니다. 도움이 필요하시면 관리자에게 문의해 주십시오.",module,Magento_Customer
+"Invalid login or password.","이메일 또는 비밀번호가 다릅니다.",module,Magento_Customer
 "A login and a password are required.","로그인 및 비밀번호는 필수입니다.",module,Magento_Customer
-"New Password and Confirm New Password values didn't match.","신규 비밀번호와 신규 비밀번호 확인값이 일치하지 않습니다.",module,Magento_Customer
 "Please enter a new password.","새로운 비밀번호를 입력해 주십시오.",module,Magento_Customer
 "You updated your password.","비밀번호를 변경하였습니다.",module,Magento_Customer
 "Something went wrong while saving the new password.","새로운 비밀번호를 저장하는 동안 오류가 발생했습니다.",module,Magento_Customer
@@ -1417,31 +1368,36 @@ Customers,고객,module,Magento_Customer
 "Please define Wish List item ID.","위시리스트 아이템 ID를 정의해 주십시오.",module,Magento_Customer
 "Please load Wish List item.","위시리스트 아이템을 불러 주십시오.",module,Magento_Customer
 "Login successful.","로그인 성공.",module,Magento_Customer
-"Invalid login or password.","이메일 또는 비밀번호가 다릅니다.",module,Magento_Customer
 "No confirmation needed.","확인이 필요 없습니다.",module,Magento_Customer
 "Account already active","계정이 이미 활성화 되어있습니다.",module,Magento_Customer
 "Invalid confirmation token","잘못된 확인 토큰",module,Magento_Customer
-"The account is locked.","계정이 잠겼습니다.",module,Magento_Customer
 "This account is not confirmed.","승인되지 않은 계정입니다.",module,Magento_Customer
-"Please enter a password with at most %1 characters.","%1자 이하의 암호를 입력해 주십시오.",module,Magento_Customer
-"Please enter a password with at least %1 characters.","%1자 이상의 암호를 입력해 주십시오.",module,Magento_Customer
-"The password can't begin or end with a space.","비밀번호에 공백을 포함할 수 없습니다.",module,Magento_Customer
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","비밀번호는 최소%1개의 조건을 충족하여야 합니다: 대문자, 소문자, 숫자, 기호.",module,Magento_Customer
 "This customer already exists in this store.","이 스토어에 이미 존재하는 고객입니다.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","동일한 이메일을 가진 고객이 이미 연결된 웹사이트에 있습니다.",module,Magento_Customer
-"%fieldName is a required field.","%fieldName은(는) 필수 항목 입니다.",module,Magento_Customer
+"The password doesn't match this account.","비밀번호가 일치하지 않습니다.",module,Magento_Customer
+"Please enter a password with at least %1 characters.","%1자 이상의 암호를 입력해 주십시오.",module,Magento_Customer
+"The password can't begin or end with a space.","비밀번호에 공백을 포함할 수 없습니다.",module,Magento_Customer
 "Reset password token mismatch.","비밀번호 리셋 토큰이 일치하지 않습니다.",module,Magento_Customer
 "Reset password token expired.","비밀번호 리셋 토큰의 유효기간이 만료되었습니다.",module,Magento_Customer
+"Please enter the first name.","이름을 입력해 주십시오.",module,Magento_Customer
+"Please enter the last name.","성을 입력해 주십시오.",module,Magento_Customer
+"Please enter the city.","도시를 입력해 주십시오.",module,Magento_Customer
+"Please enter the phone number.","전화번호를 입력해 주십시오.",module,Magento_Customer
+"Please enter the zip/postal code.","우편 번호를 입력해 주십시오.",module,Magento_Customer
+"Please enter the country.","국가를 입력해 주십시오.",module,Magento_Customer
+"Please enter the state/province.","시/도를 입력해 주십시오.",module,Magento_Customer
 """%1"" is a required value.","""%1""은(는) 필수 항목 입니다.",module,Magento_Customer
 Global,글로벌,module,Magento_Customer
 "Per Website",웹사이트당,module,Magento_Customer
 "Billing Address","청구 주소",module,Magento_Customer
 "Shipping Address","배송지 주소",module,Magento_Customer
 "-- Please Select --","-- 선택해 주십시오 --",module,Magento_Customer
+"Please enter a first name.","이름을 입력하십시오",module,Magento_Customer
+"Please enter a last name.","성을 입력하십시오",module,Magento_Customer
+"Please enter a date of birth.","생년월일을 입력하세요.",module,Magento_Customer
 "Please enter a valid password reset token.","올바른 비밀번호 변경 토큰을 입력해 주십시오.",module,Magento_Customer
 "The password can not begin or end with a space.","비밀번호에 공백을 포함할 수 없습니다.",module,Magento_Customer
 Admin,관리자,module,Magento_Customer
-"ALL GROUPS","모든 그룹",module,Magento_Customer
 "Attribute object is undefined","어트리뷰트 오브젝트가 정의되지 않았습니다.",module,Magento_Customer
 """%1"" invalid type entered.","""%1""에 잘못된 유형이 입력되었습니다.",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1""은(는) 알파벳 또는 숫자 이외의 문자를 포함하고 있습니다.",module,Magento_Customer
@@ -1452,6 +1408,7 @@ Admin,관리자,module,Magento_Customer
 """%1"" is not a valid hostname.","""%s""은(는) 유효한 호스트이름이 아닙니다.",module,Magento_Customer
 """%1"" uses too many characters.","""%1""에 너무 많은 글자가 사용되었습니다.",module,Magento_Customer
 "'%value%' looks like an IP address, which is not an acceptable format.","'%value%'은(는) IP 주소와 비슷하지만 허용된 형식이 아닙니다.",module,Magento_Customer
+"'%value%' looks like a DNS hostname but we cannot match the TLD against known list.","'%value%'은(는) DNS 호스트 이름과 비슷하지만 알려진 목록과 TLD를 비교할 수 없습니다.",module,Magento_Customer
 "'%value%' looks like a DNS hostname but contains a dash in an invalid position.","'%value%'은(는) DNS 호스트 이름과 유사하지만 잘못된 위치에 대시가 포함되어 있습니다.",module,Magento_Customer
 "'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.","'%value%'은(는) DNS 호스트 이름과 유사하지만 TLD '%tld%'의 호스트 이름 스키마와 일치하지 않습니다.",module,Magento_Customer
 "'%value%' looks like a DNS hostname but cannot extract TLD part.","'%value%'은(는) DNS 호스트 이름처럼 보이지만 TLD 부분을 추출 할 수 없습니다.",module,Magento_Customer
@@ -1468,7 +1425,6 @@ Admin,관리자,module,Magento_Customer
 label,라벨,module,Magento_Customer
 "Please enter a customer email.","고객 이메일을 입력해 주십시오.",module,Magento_Customer
 "Customer Group","고객 그룹",module,Magento_Customer
-"You can't delete group ""%1"".","""%1"" 그룹을 삭제할 수 없습니다.",module,Magento_Customer
 "Customer Group already exists.","고객 그룹이 이미 존재합니다.",module,Magento_Customer
 "Cannot delete group.","그룹을 삭제할 수 없습니다.",module,Magento_Customer
 "Error during VAT Number verification.","VAT 번호 검증중 에러가 발생했습니다.",module,Magento_Customer
@@ -1486,12 +1442,9 @@ Female,여성,module,Magento_Customer
 "Not Specified","지정되지 않음",module,Magento_Customer
 "enter your billing address for proper VAT calculation","적절한 VAT 계산을 위해 청구 주소를 입력하십시오.",module,Magento_Customer
 "enter your shipping address for proper VAT calculation","적절한 VAT 계산을 위해 배송 주소를 입력하십시오.",module,Magento_Customer
-"Please enter new password.","새로운 비밀번호를 입력해 주십시오.",module,Magento_Customer
 message,메세지,module,Magento_Customer
 Exception,예외,module,Magento_Customer
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","승인되지 않은 계정입니다. 확인메일을 다시 받으시려면 <a href=""%1"">이곳을 클릭</a>하세요.",module,Magento_Customer
 "Exception message","예외 메세지",module,Magento_Customer
-"Please enter the state/province.","시/도를 입력해 주십시오.",module,Magento_Customer
 Label,라벨,module,Magento_Customer
 Select...,선택...,module,Magento_Customer
 Edit,수정,module,Magento_Customer
@@ -1518,6 +1471,7 @@ Change,변경,module,Magento_Customer
 "Contact Information","연락처 정보",module,Magento_Customer
 "Change Password","비밀번호 변경",module,Magento_Customer
 Newsletters,뉴스레터,module,Magento_Customer
+"You subscribe to ""General Subscription"".","""일반 뉴스레터""에 가입하셨습니다.",module,Magento_Customer
 "Default Addresses","기본 주소",module,Magento_Customer
 "Change Billing Address","구매자 주소 변경",module,Magento_Customer
 "You have no default billing address in your address book.","주소록에 저장된 구매자 주소가 없습니다.",module,Magento_Customer
@@ -1527,6 +1481,9 @@ Newsletters,뉴스레터,module,Magento_Customer
 "Delete Address","주소 삭제",module,Magento_Customer
 "You have no other address entries in your address book.","주소록에 저장된 주소가 없습니다.",module,Magento_Customer
 "* Required Fields","* 필수 항목",module,Magento_Customer
+Company,회사,module,Magento_Customer
+"Phone Number","전화 번호",module,Magento_Customer
+Fax,팩스,module,Magento_Customer
 Address,주소,module,Magento_Customer
 "Street Address",도로명주소,module,Magento_Customer
 "Street Address %1","도로명주소 %1",module,Magento_Customer
@@ -1536,9 +1493,7 @@ State/Province,시/도,module,Magento_Customer
 "Please select a region, state or province.","지역을 선택하세요.",module,Magento_Customer
 "Zip/Postal Code",우편번호,module,Magento_Customer
 Country,국가,module,Magento_Customer
-"It's a default billing address.","기본 구매자 주소입니다.",module,Magento_Customer
 "Use as my default billing address","기본 구매자 주소로 사용",module,Magento_Customer
-"It's a default shipping address.","기본 배송지 주소입니다.",module,Magento_Customer
 "Use as my default shipping address","기본 배송지 주소로 사용",module,Magento_Customer
 "Save Address","주소 저장",module,Magento_Customer
 "Go back","뒤로 가기",module,Magento_Customer
@@ -1546,16 +1501,11 @@ Country,국가,module,Magento_Customer
 Email,이메일,module,Magento_Customer
 "Send confirmation link","확인 링크 전송",module,Magento_Customer
 "Back to Sign In","로그인으로 돌아가기",module,Magento_Customer
-"Change Email","이메일 변경",module,Magento_Customer
-"Change Email and Password","이메일 및 비밀번호 변경",module,Magento_Customer
 "Current Password","현재 비밀번호",module,Magento_Customer
 "New Password","새로운 비밀번호",module,Magento_Customer
-"Password Strength","비밀번호 강도",module,Magento_Customer
-"No Password","비밀번호 없음",module,Magento_Customer
 "Confirm New Password","신규 비밀번호 확인",module,Magento_Customer
 Save,저장,module,Magento_Customer
 "Please enter your email address below to receive a password reset link.","이메일 주소를 입력해 주십시오. 비밀번호를 재설정할 수 있는 링크가 고객님의 이메일로 전송됩니다.",module,Magento_Customer
-"Reset My Password","비밀번호 재설정",module,Magento_Customer
 "Registered Customers","회원 로그인",module,Magento_Customer
 "If you have an account, sign in with your email address.","이미 회원가입하셨다면 이메일주소로 로그인하세요.",module,Magento_Customer
 Password,비밀번호,module,Magento_Customer
@@ -1571,12 +1521,9 @@ Password,비밀번호,module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","로그아웃되었습니다. 5초 후 홈페이지로 이동합니다.",module,Magento_Customer
 "New Customers","신규 고객",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","계정을 생성하면 많은 혜택이 있습니다:간편한 결제, 주소록에 주소 저장, 주문 상태 확인등 편리한 기능이 많이 있습니다.",module,Magento_Customer
-Company,회사,module,Magento_Customer
-Fax,팩스,module,Magento_Customer
 Gender,성별,module,Magento_Customer
 Name,이름,module,Magento_Customer
 "Tax/VAT number","Tax/VAT 번호",module,Magento_Customer
-"Phone Number","전화 번호",module,Magento_Customer
 "Cannot identify weight unit for %1","%1의 중량 단위를 식별할 수 없습니다.",module,Magento_Dhl
 State/Province,시/도,module,Magento_Directory
 "--Please Select--",선택하세요,module,Magento_Directory
@@ -1593,7 +1540,6 @@ Error,에러,module,Magento_DownloadableImportExport
 Unlimited,무제한,module,Magento_Downloadable
 "Something went wrong while getting the requested content.","요청한 컨텐츠를 받아오는중 문제가 발생했습니다.",module,Magento_Downloadable
 "My Downloadable Products","다운로드 상품",module,Magento_Downloadable
-"We can't find the link you requested.","요청하신 링크를 찾을 수 없습니다.",module,Magento_Downloadable
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","상품을 다운로드 받거나 구입하기 위해 로그인하세요. <a href=""%1"">
  %2</a>
  .",module,Magento_Downloadable
@@ -1606,7 +1552,6 @@ Unlimited,무제한,module,Magento_Downloadable
 "Something went wrong while saving the file(s).","파일 저장중 문제가 발생했습니다.",module,Magento_Downloadable
 "Provided content must be valid base64 encoded data.","제공되는 데이터는 반드시 base64 인코딩이어야 합니다.",module,Magento_Downloadable
 "Provided file name contains forbidden characters.","제공된 파일 이름에 금지 된 문자가 포함되어 있습니다.",module,Magento_Downloadable
-"Link file not provided","링크 파일이 제공되지 않았습니다.",module,Magento_Downloadable
 "Link price must have numeric positive value.","링크 가격은 반드시 0보다 큰 숫자여야 합니다.",module,Magento_Downloadable
 "Number of downloads must be a positive integer.","다운로스 휫수는 0보다 큰 정수여야 합니다.",module,Magento_Downloadable
 "Sort order must be a positive integer.","정렬 기준은 반드시 0보다 큰 정수여야 합니다.",module,Magento_Downloadable
@@ -1615,45 +1560,38 @@ Unlimited,무제한,module,Magento_Downloadable
 "Sample URL must have valid format.","샘플 URL은 반드시 올바른 형식이어야 합니다.",module,Magento_Downloadable
 "Order id cannot be null","주문 ID는 null 일 수 없습니다.",module,Magento_Downloadable
 "Order item id cannot be null","주문 품목 ID는 null 일 수 없습니다.",module,Magento_Downloadable
-"Provided product must be type 'downloadable'.","제공된 제품은 '다운로드 가능'유형이어야합니다.",module,Magento_Downloadable
 "Invalid link type.","잘못된 링크 타입 입니다.",module,Magento_Downloadable
 "Link title cannot be empty.","링크 타이틀은 빈칸일수 없습니다.",module,Magento_Downloadable
 "There is no downloadable link with provided ID.","제공된 ID에는 다운로드 가능한 링크가 없습니다.",module,Magento_Downloadable
-"Cannot delete link with id %1","id %1 링크를 삭제할 수 없습니다",module,Magento_Downloadable
 "Please specify product link(s).","상품 링크를 지정하십시오.",module,Magento_Downloadable
-"Sample file not provided","샘플파일이 제공되지 않습니다.",module,Magento_Downloadable
 "Invalid sample type.","잘못된 샘플 타입입니다.",module,Magento_Downloadable
 "Sample title cannot be empty.","샘플 타이틀은 빈칸일 수 없습니다.",module,Magento_Downloadable
 "There is no downloadable sample with provided ID.","제공된 ID에는 다운로드 가능한 샘플이 없습니다.",module,Magento_Downloadable
-"Cannot delete sample with id %1","id %1 샘플을 삭제할 수 없습니다",module,Magento_Downloadable
-Yes,네,module,Magento_Downloadable
-No,아니오,module,Magento_Downloadable
-"Upload File","파일 업로드",module,Magento_Downloadable
 attachment,첨부,module,Magento_Downloadable
 inline,인라인,module,Magento_Downloadable
 Pending,대기,module,Magento_Downloadable
 Invoiced,청구됨,module,Magento_Downloadable
-"To enable the option set the weight to no","이 옵션을 활성화 하려면 중량을 ""아니오""로 설정하십시오.",module,Magento_Downloadable
+sample,샘플,module,Magento_Downloadable
 "Is this downloadable Product?","다운로드 상품 입니까?",module,Magento_Downloadable
 Links,링크,module,Magento_Downloadable
+"Add links to your product files here.","제품 파일의 링크를 추가해 주십시오.",module,Magento_Downloadable
+"[STORE VIEW]",[스토어뷰],module,Magento_Downloadable
 Title,타이틀,module,Magento_Downloadable
+"Use Default Value","기본값 사용",module,Magento_Downloadable
+[GLOBAL],[글로벌],module,Magento_Downloadable
 "Links can be purchased separately","링크는 별도 구매가 가능합니다.",module,Magento_Downloadable
-"Add Link","링크 추가",module,Magento_Downloadable
+"Sort Order","정렬 기준",module,Magento_Downloadable
 Price,가격,module,Magento_Downloadable
-File,파일,module,Magento_Downloadable
+"Attach File or Enter Link","파일 첨부 또는 링크 입력",module,Magento_Downloadable
 Sample,샘플,module,Magento_Downloadable
 Shareable,공유가능,module,Magento_Downloadable
 "Max. Downloads","최대 다운로드",module,Magento_Downloadable
-Samples,샘플,module,Magento_Downloadable
-"Use Default Value","기본값 사용",module,Magento_Downloadable
-sample,샘플,module,Magento_Downloadable
-"Add links to your product files here.","제품 파일의 링크를 추가해 주십시오.",module,Magento_Downloadable
-"[STORE VIEW]",[스토어뷰],module,Magento_Downloadable
-[GLOBAL],[글로벌],module,Magento_Downloadable
-"Sort Order","정렬 기준",module,Magento_Downloadable
-"Attach File or Enter Link","파일 첨부 또는 링크 입력",module,Magento_Downloadable
+File,파일,module,Magento_Downloadable
 "Browse Files...","파일 찾기...",module,Magento_Downloadable
+Yes,네,module,Magento_Downloadable
+No,아니오,module,Magento_Downloadable
 Delete,삭제,module,Magento_Downloadable
+Samples,샘플,module,Magento_Downloadable
 "Add product preview files here.","제품 프리뷰 파일을 추가하십시오.",module,Magento_Downloadable
 "Select all","모두 선택",module,Magento_Downloadable
 "Unselect all","모두 해제",module,Magento_Downloadable
@@ -1684,14 +1622,12 @@ Shipped,배송됨,module,Magento_Downloadable
 Canceled,취소됨,module,Magento_Downloadable
 Refunded,환불됨,module,Magento_Downloadable
 "Attribute Properties","어트리뷰트 속성",module,Magento_Eav
-"Default Label","기본 라벨",module,Magento_Eav
 "Default label","기본 라벨",module,Magento_Eav
 "Attribute Code","어트리뷰트 코드",module,Magento_Eav
 "Values Required","필수 입력 항목",module,Magento_Eav
 "Default Value",기본값,module,Magento_Eav
 "Unique Value","고유한 값",module,Magento_Eav
 "Unique Value (not shared with other products)","고유한 값(다른 상품과 공유하지 않음)",module,Magento_Eav
-"Not shared with other products.","다른 상품과 공유하지 않음",module,Magento_Eav
 Required,필수,module,Magento_Eav
 Yes,네,module,Magento_Eav
 No,아니오,module,Magento_Eav
@@ -1756,8 +1692,8 @@ Dropdown,드롭다운,module,Magento_Eav
 "Invalid date","잘못된 날짜",module,Magento_Eav
 "Empty attribute code","빈 어트리뷰트 코드",module,Magento_Eav
 "Cannot save attribute %1","어트리뷰트 %1를 저장할 수 없습니다.",module,Magento_Eav
-"Cannot load options for attribute %1","어트리뷰트 %1의 옵션을 불러올 수 없습니다.",module,Magento_Eav
 "Attribute %1 does not contain option with Id %2","어트리뷰트 %1에 ID %2의 옵션이 없습니다.",module,Magento_Eav
+"Cannot load options for attribute %1","어트리뷰트 %1의 옵션을 불러올 수 없습니다.",module,Magento_Eav
 "Attribute set name is empty.","어트리뷰트 세트의 이름이 비었습니다.",module,Magento_Eav
 "An attribute set named ""%1"" already exists.","어트리뷰트 세트 이름 ""%1""이 이미 있습니다.",module,Magento_Eav
 Back,이전,module,Magento_Email
@@ -1776,7 +1712,6 @@ status,상태,module,Magento_Fedex
 "Could not add gift message to shopping cart","장바구니에 선물 메시지를 추가할 수 없습니다.",module,Magento_GiftMessage
 "There is no product with provided  itemId: %1 in the cart","There is no product with provided itemId: %1 in the cart",module,Magento_GiftMessage
 "Could not add gift message to order: ""%1""","""%1"" 주문에 선물 메시지를 추가할 수 없습니다.",module,Magento_GiftMessage
-"Use Config Settings","스토어 설정값 사용",module,Magento_GiftMessage
 Cancel,취소,module,Magento_GiftMessage
 "Gift Options","선물 메시지",module,Magento_GiftMessage
 "Gift Message","선물 메시지",module,Magento_GiftMessage
@@ -1787,14 +1722,13 @@ Cancel,취소,module,Magento_GiftMessage
  of %2",module,Magento_GiftMessage
 "Leave a box blank if you don't want to add a gift message for that item.","선물 메시지를 보내고 싶지 않으시면 빈칸으로 남겨두세요.",module,Magento_GiftMessage
 "Add Gift Options for the Entire Order","주문에 선물 메시지 추가하기",module,Magento_GiftMessage
+"Add gift options for Individual Items","개별 항목에 대한 선물 옵션 추가",module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for the item.","선물 메시지를 보내고 싶지 않으시면 빈칸으로 남겨두세요.",module,Magento_GiftMessage
 Dynamic,동적,module,Magento_GoogleAdwords
-Cancel,취소,module,Magento_GroupedProduct
-Name,이름,module,Magento_GroupedProduct
-Status,상태,module,Magento_GroupedProduct
-Price,가격,module,Magento_GroupedProduct
 "Product Name",상품명,module,Magento_GroupedProduct
+Price,가격,module,Magento_GroupedProduct
 Qty,수량,module,Magento_GroupedProduct
+Name,이름,module,Magento_GroupedProduct
 "Default Qty","기본 수량",module,Magento_GroupedProduct
 "In stock","재고 있음",module,Magento_GroupedProduct
 Exclude,제외,module,Magento_ImportExport
@@ -1815,14 +1749,8 @@ Save,저장,module,Magento_Integration
 General,일반,module,Magento_Integration
 Name,이름,module,Magento_Integration
 Email,이메일,module,Magento_Integration
-"Your Password",비밀번호,module,Magento_Integration
 Edit,수정,module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","로그인을 바르게 하지 않았거나 일시적으로 사용이 중지된 계정입니다.",module,Magento_Integration
-Reset,초기화,module,Magento_Integration
-"One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","One or more <a href=""%1"">
- integrations</a>
- have been reset because of a change to their xml configs.",module,Magento_Integration
-"You have entered an invalid password for current user.","잘못된 비밀번호를 입력 했습니다.",module,Magento_Integration
 No,아니오,module,Magento_LayeredNavigation
 Position,기본,module,Magento_LayeredNavigation
 item,항목,module,Magento_LayeredNavigation
@@ -1834,7 +1762,6 @@ Remove,삭제,module,Magento_LayeredNavigation
 "Read More","자세히 보기",module,Magento_Marketplace
 "To see product price, add this item to your cart. You can always remove it later.","가격을 확인하시려면 상품을 장바구니에 담아주세요. 언제든지 제거할 수 있습니다.",module,Magento_Msrp
 "Click for price","클릭하여 가격확인",module,Magento_Msrp
-"What's this?",도움말,module,Magento_Msrp
 "Order total will be displayed before you submit the order","주문을 확정하기 전에 총 금액이 표시됩니다.",module,Magento_Msrp
 Price,가격,module,Magento_Msrp
 "Actual Price","실제 가격",module,Magento_Msrp
@@ -1923,10 +1850,10 @@ Country,국가,module,Magento_OfflineShipping
 "Weight (and above)","중량 (이상)",module,Magento_OfflineShipping
 "Order Subtotal (and above)","주문 소계",module,Magento_OfflineShipping
 None,없음,module,Magento_OfflineShipping
+"Free Shipping","무료 배송",module,Magento_OfflineShipping
 No,아니오,module,Magento_OfflineShipping
 "Credit Card Type","신용카드 종류",module,Magento_Payment
 "Credit Card Number","신용 카드 번호",module,Magento_Payment
-"Transaction has been declined. Please try again later.","결제요청이 거절 되었습니다. 나중에 다시 시도 하십시오.",module,Magento_Payment
 Discount,할인,module,Magento_Payment
 Shipping,배송료,module,Magento_Payment
 "All Allowed Countries","모든 허용된 국가",module,Magento_Payment
@@ -2011,7 +1938,6 @@ Description,설명,module,Magento_ProductVideo
  To add YouTube video, please <a href=""%1"">
  enter YouTube API Key</a>
  first.",module,Magento_ProductVideo
-"Unable to save address. Please check input data.","주소를 저장할 수 없습니다. 입력된 데이터를 확인 하시기 바랍니다.",module,Magento_Quote
 "Could not apply coupon code","쿠폰 코드를 적용할 수 없습니다.",module,Magento_Quote
 "Coupon code is not valid","쿠폰 코드가 유효 하지 않습니다.",module,Magento_Quote
 "Could not delete coupon code","쿠폰 코드를 삭제할 수 없습니다.",module,Magento_Quote
@@ -2029,7 +1955,7 @@ Subtotal,소계,module,Magento_Quote
 "Item qty declaration error","아이템 수량 오류",module,Magento_Quote
 "Some of the products below do not have all the required options.","아래 제품 중의 일부에서 필수 옵션을 선택하지 않았습니다.",module,Magento_Quote
 "Could not save quote","견적을 저장할 수 없습니다.",module,Magento_Quote
-"Minimum order amount is %1","최소 주문 금액은 %1입니다.",module,Magento_Quote
+"Cannot place order.","주문을 진행할 수 없습니다.",module,Magento_Quote
 "Please check the billing address information. %1","결제 정보의 주소란을 확인하세요. %1",module,Magento_Quote
 "Please select a valid payment method.","결제방법을 선택하세요",module,Magento_Quote
 Discount,할인,module,Magento_Quote
@@ -2064,11 +1990,6 @@ Products,상품,module,Magento_Reports
 "First Name",이름,module,Magento_Reports
 "Last Name",성,module,Magento_Reports
 "Items in Cart","개의 장바구니 항목",module,Magento_Reports
-"Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""%3"">here</a>.","Last updated: %1. To refresh last day's <a href=""%2"">
- statistics</a>
- , click <a href=""%3"">
- here</a>
- .",module,Magento_Reports
 Review,리뷰,module,Magento_Reports
 Reviews,리뷰,module,Magento_Reports
 "Product Reviews","상품 리뷰",module,Magento_Reports
@@ -2141,14 +2062,9 @@ Back,이전,module,Magento_Review
 "Be the first to review this product","제일 먼저 이 제품을 평가해보세요!",module,Magento_Review
 "Write Your Own Review","직접 리뷰를 작성해보세요",module,Magento_Review
 "* Required Fields","* 필수 항목",module,Magento_Review
-"You're reviewing:","이 상품에 관한 리뷰를 작성하고 있습니다:",module,Magento_Review
 Summary,요약,module,Magento_Review
 "Submit Review","리뷰 제출",module,Magento_Review
-"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","로그인 후에 후기를 작성할 수 있습니다. <a href=""%1"">
- 로그인</a>
- 하시거나 <a href=""%2"">
- 회원가입</a>
- 하세요.",module,Magento_Review
+"Only registered users can write reviews. Please, <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","로그인 후에 후기를 작성할 수 있습니다. <a href=""%1"">로그인</a>하시거나 <a href=""%2"">회원가입</a>하세요.",module,Magento_Review
 "Add Your Review","새로운 리뷰 추가",module,Magento_Review
 "%1 Review(s)","%1개의 리뷰",module,Magento_Review
 "Review by",리뷰작성자,module,Magento_Review
@@ -2159,19 +2075,24 @@ Apply,적용,module,Magento_Rule
 by,기준,module,Magento_Rule
 "Cart Price Rules","장바구니 가격 규칙",module,Magento_SalesRule
 "Add New Rule","신규 규칙 추가",module,Magento_SalesRule
-Delete,삭제,module,Magento_SalesRule
-"Are you sure you want to delete this?","이 항목을 삭제하시겠습니까?",module,Magento_SalesRule
-Reset,초기화,module,Magento_SalesRule
-Save,저장,module,Magento_SalesRule
+"New Rule","신규 규칙",module,Magento_SalesRule
+"Rule Information","규칙 정보",module,Magento_SalesRule
 Actions,동작,module,Magento_SalesRule
-"Coupon Qty","쿠폰 수량",module,Magento_SalesRule
-No,아니오,module,Magento_SalesRule
+Apply,적용,module,Magento_SalesRule
+"Fixed amount discount","고정 비용 할인",module,Magento_SalesRule
+"Fixed amount discount for whole cart","전체 장바구니에 대한 고정 금액 할인",module,Magento_SalesRule
+"Maximum Qty Discount is Applied To","최대 수량 할인 적용",module,Magento_SalesRule
 Yes,네,module,Magento_SalesRule
-Rule,규칙,module,Magento_SalesRule
+No,아니오,module,Magento_SalesRule
+"Coupon Qty","쿠폰 수량",module,Magento_SalesRule
+Delete,삭제,module,Magento_SalesRule
+"Rule Name","규칙 이름",module,Magento_SalesRule
 Status,상태,module,Magento_SalesRule
+"Customer Groups","고객 그룹",module,Magento_SalesRule
+"Cart Price Rule","장바구니 가격 규칙",module,Magento_SalesRule
+Rule,규칙,module,Magento_SalesRule
 "You deleted the rule.","규칙을 삭제했습니다.",module,Magento_SalesRule
 "Edit Rule","규칙 수정",module,Magento_SalesRule
-"New Rule","신규 규칙",module,Magento_SalesRule
 "New Cart Price Rule","신규 장바구니 가격 규칙",module,Magento_SalesRule
 "Rule is not defined","규칙이 정의되어 있지 않습니다.",module,Magento_SalesRule
 "The wrong rule is specified.","잘못된 규칙을 지정했습니다.",module,Magento_SalesRule
@@ -2185,8 +2106,6 @@ Subtotal,소계,module,Magento_SalesRule
 "Shipping Postcode","배송지 우편번호",module,Magento_SalesRule
 "Shipping State/Province","배송 시/도",module,Magento_SalesRule
 "Shipping Country","배송 국가",module,Magento_SalesRule
-"Fixed amount discount","고정 비용 할인",module,Magento_SalesRule
-"Fixed amount discount for whole cart","전체 장바구니에 대한 고정 금액 할인",module,Magento_SalesRule
 Invoices,청구서,module,Magento_Sales
 "Save Order Address","주문 주소 저장",module,Magento_Sales
 Shipping,배송,module,Magento_Sales
@@ -2255,7 +2174,6 @@ Back,이전,module,Magento_Sales
 "Invoice canceling error","청구 취소 에러",module,Magento_Sales
 "New Invoice","신규 청구서",module,Magento_Sales
 "There are no printable documents related to selected orders.","선택한 주문과 관련해 인쇄할 문서가 없습니다.",module,Magento_Sales
-"-- Please Select --",--선택하세요--,module,Magento_Sales
 "Please enter the first name.","이름을 입력하십시오",module,Magento_Sales
 "Please enter the last name.","성을 입력하십시오",module,Magento_Sales
 "Please enter the phone number.","전화번호를 입력해주세요",module,Magento_Sales
@@ -2311,6 +2229,8 @@ Status,상태,module,Magento_Sales
 "Order Date",주문일,module,Magento_Sales
 "Order Date (%1)","주문 날짜 (%1)",module,Magento_Sales
 "Customer Name","고객 이름",module,Magento_Sales
+"Item Status","항목 상태",module,Magento_Sales
+"Tax Percent",세율,module,Magento_Sales
 "Notes for this Order","이 주문에 대한 노트",module,Magento_Sales
 Items,항목,module,Magento_Sales
 "Billing Last Name","구매자 성(이름)",module,Magento_Sales
@@ -2328,19 +2248,12 @@ Actions,동작,module,Magento_Sales
  %1",module,Magento_Sales
 "Recent Orders","최근 주문",module,Magento_Sales
 "View All","모두 보기",module,Magento_Sales
-"Recently Ordered","최근 주문한 상품",module,Magento_Sales
 "Add to Cart","장바구니에 추가",module,Magento_Sales
 Results,결과,module,Magento_Search
-Back,뒤로,module,Magento_Search
-Reset,초기화,module,Magento_Search
 No,아니오,module,Magento_Search
 Yes,네,module,Magento_Search
 Store,스토어,module,Magento_Search
 "Search entire store here...",검색,module,Magento_Search
-"All other open sessions for this account were terminated.","해당 계정에 의해 열린 모든 세션이 종료되었습니다.",module,Magento_Security
-"Your current session is terminated by another user of this account.","현재 세션은 이 계정의 다른 사용자에 의해 종료 됩니다.",module,Magento_Security
-"Your current session has been expired.","현재 세션이 만료 되었습니다.",module,Magento_Security
-"Too many password reset requests. Please wait and try again or contact %1.","비밀번호 재설정 요청 횟수가 초과되었습니다. 잠시 기다리신 후에 다시 시도하여 주시거나 %1로 문의하여 주세요.",module,Magento_Security
 "Page not found.","페이지를 찾을 수 없습니다.",module,Magento_SendFriend
 "The link to a friend was sent.","친구에게 링크를 보냈습니다.",module,Magento_SendFriend
 "Some emails were not sent.","일부 메일이 전송 되지 않았습니다.",module,Magento_SendFriend
@@ -2381,6 +2294,9 @@ Action,동작,module,Magento_Shipping
 "Qty Shipped","출하 수량",module,Magento_Shipping
 "Print All Shipments","모든 배송 인쇄",module,Magento_Shipping
 "contact us","사용 문의",module,Magento_Shipping
+Status:,상태:,module,Magento_Shipping
+"Service Type:","서비스 타입:",module,Magento_Shipping
+Weight:,중량:,module,Magento_Shipping
 Date,날짜,module,Magento_Shipping
 "Save & Generate","저장하고 생성하기",module,Magento_Sitemap
 "Edit Sitemap","사이트맵 수정",module,Magento_Sitemap
@@ -2410,7 +2326,6 @@ Always,항상,module,Magento_Sitemap
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in the filename. No spaces or other characters are allowed.","파일명에는 영문 대소문자, 숫자, 언더바(_)만 사용할 수 있습니다. 공백이나 다른 문자는 사용할 수 없습니다.",module,Magento_Sitemap
 All,모두,module,Magento_Sitemap
 "-- Please Select --",--선택하세요--,module,Magento_Store
-Clear,지우기,module,Magento_Swatches
 Country,국가,module,Magento_TaxImportExport
 "Zip/Post Code",우편번호,module,Magento_TaxImportExport
 "Invalid file format.","잘못된 파일 형식입니다.",module,Magento_TaxImportExport
@@ -2457,19 +2372,15 @@ product,상품,module,Magento_Tax
 "Incl. Tax","세금 포함",module,Magento_Tax
 "Excl. Tax","세금 제외",module,Magento_Tax
 Save,저장,module,Magento_Tax
-Back,이전,module,Magento_Theme
 Themes,테마,module,Magento_Theme
-welcome,환영합니다,module,Magento_Theme
 "-- Please Select --",--선택하세요--,module,Magento_Theme
-Edit,수정,module,Magento_Theme
-"Welcome, %1!","%1님, 환영합니다!",module,Magento_Theme
 Show,보기,module,Magento_Theme
 "per page","페이지 당",module,Magento_Theme
 "Remove %1","%1 삭제",module,Magento_Ui
 "Please select item(s).","선택 하세요.",module,Magento_Ui
-Cancel,취소,module,Magento_Ui
-Back,뒤로,module,Magento_Ui
 Next,다음,module,Magento_Ui
+Back,뒤로,module,Magento_Ui
+Cancel,취소,module,Magento_Ui
 Product:,상품:,module,Magento_UrlRewrite
 Status,상태,module,Magento_UrlRewrite
 Reset,초기화,module,Magento_UrlRewrite
@@ -2482,22 +2393,20 @@ Reset,초기화,module,Magento_User
 "Last Name",성,module,Magento_User
 Email,이메일,module,Magento_User
 Status,상태,module,Magento_User
-"Your Password",비밀번호,module,Magento_User
 "Account Information","회원 계정 정보",module,Magento_User
 "User Email","사용자 이메일",module,Magento_User
 Password,비밀번호,module,Magento_User
 "New Password","새로운 비밀번호",module,Magento_User
 "Password Confirmation","비밀번호 재확인",module,Magento_User
 "Account Status","계정 상태",module,Magento_User
+"Your Password",비밀번호,module,Magento_User
 "Your password reset link has expired.","비밀 번호 재설정 링크가 만료 되었습니다.",module,Magento_User
-"We're unable to send the password reset email.","비밀번호 재설정 이메일을 보낼 수 없습니다.",module,Magento_User
 "We'll email you a link to reset your password.","비밀번호를 재설정할 수 있는 링크를 이메일로 보내드립니다.",module,Magento_User
 "Please correct this email address:","이 이메일 주소를 정정 하십시오:",module,Magento_User
 "Please enter an email address.","이메일주소를 입력해주세요.",module,Magento_User
 "You updated your password.","비밀번호를 변경하였습니다.",module,Magento_User
 "You have entered an invalid password for current user.","현재 사용자에 대 한 잘못된 비밀번호를 입력 했습니다.",module,Magento_User
 "Sorry, but this password has already been used. Please create another.","입력하신 비밀번호는 이미 사용하셨습니다. 새로운 비밀번호를 설정하세요.",module,Magento_User
-password,"비밀 번호",module,Magento_User
 "You did not sign in correctly or your account is temporarily disabled.","로그인을 바르게 하지 않았거나 일시적으로 사용이 중지된 계정입니다.",module,Magento_User
 "First Name is a required field.","이름은 필수 입력 사항입니다.",module,Magento_User
 "Last Name is a required field.","성(이름)은 필수 입력 사항입니다.",module,Magento_User
@@ -2507,7 +2416,6 @@ password,"비밀 번호",module,Magento_User
 "Your password must include both numeric and alphabetic characters.","비밀 번호는 숫자 및 알파벳 문자를 포함 해야 합니다.",module,Magento_User
 "Your password confirmation must match your password.","비밀번호 재확인에 입력한 값이 다릅니다.",module,Magento_User
 "It's time to change your password.","비밀번호를 변경하세요!",module,Magento_User
-"It's time to <a href=""%1"">change your password</a>.","안전한 사용을 위해 <a href=""%1"">비밀번호 변경</a>을 주기적으로 하세요.",module,Magento_User
 "Your password has expired; please contact your administrator.","비밀번호가 만료되었습니다; 사이트 관리자에게 문의하세요.",module,Magento_User
 "Enter your email address.  You will receive an email with a link to reset your password.","이메일 주소를 입력하세요. 비밀번호를 재설정할 수 있는 링크가 고객님의 이메일로 보내집니다.",module,Magento_User
 "Email address","이메일 주소",module,Magento_User
@@ -2520,9 +2428,6 @@ No,아니오,module,Magento_Usps
 "Save and Continue Edit","저장하고 계속 수정",module,Magento_Variable
 No,아니오,module,Magento_Variable
 Yes,네,module,Magento_Variable
-"Card Number","카드 번호",module,Magento_Vault
-Delete,삭제,module,Magento_Vault
-"Consumer is not authorized to access %resources","고객은 %resource에 접근할 권한이 없습니다.",module,Magento_Webapi
 "Operation allowed only in HTTPS","HTTPS에서만 작업 허용",module,Magento_Webapi
 "Request does not match any route.","요청이 어떤 경로와도 일치하지 않습니다.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","허용된 파라메터가 아닙니다: %1. %2와 %3만 사용하십시오.",module,Magento_Webapi
@@ -2533,7 +2438,6 @@ Delete,삭제,module,Magento_Vault
 "Invalid XML: Detected use of illegal DOCTYPE","올바르지 않은 XML: 잘못된 문서타입(DOCTYPE)을 발견했습니다.",module,Magento_Webapi
 message,메세지,module,Magento_Webapi
 Message,메시지,module,Magento_Webapi
-"Soap fault reason.","Soap 오류 이유",module,Magento_Webapi
 "Add Tax","세금 추가",module,Magento_Weee
 "Delete Tax","세금 삭제",module,Magento_Weee
 "All Websites","모든 웹사이트",module,Magento_Weee
@@ -2542,11 +2446,11 @@ Message,메시지,module,Magento_Webapi
 "Excluding FPT. Including FPT description and final price","FPT 제외. FPT 설명과 최종 가격 포함",module,Magento_Weee
 "Excluding FPT","FPT 제외",module,Magento_Weee
 "Fixed Product Tax","고정 제품 세금(FPT)",module,Magento_Weee
-Country/State,국가,module,Magento_Weee
-Tax,세금,module,Magento_Weee
-Website,웹사이트,module,Magento_Weee
 "Excl. Tax","세금 불포함",module,Magento_Weee
 "Incl. Tax","세금 포함",module,Magento_Weee
+Website,웹사이트,module,Magento_Weee
+Country/State,국가,module,Magento_Weee
+Tax,세금,module,Magento_Weee
 "Final Price","최종 가격",module,Magento_Weee
 "Widget Insertion","위젯 삽입",module,Magento_Widget
 "Insert Widget","위젯 삽입",module,Magento_Widget
@@ -2597,7 +2501,6 @@ Page,페이지,module,Magento_Widget
 "Wish List",위시리스트,module,Magento_Wishlist
 "Wish List Sharing","위시리스트 공유",module,Magento_Wishlist
 "My Wish List",위시리스트,module,Magento_Wishlist
-"%1's Wish List","%1님의 위시리스트",module,Magento_Wishlist
 "Page not found.","페이지를 찾을 수 없습니다.",module,Magento_Wishlist
 "We can't add the item to Wish List right now: %1.","해당 상품을 일시적으로 위시리스트에 담을 수 없습니다.: %1.",module,Magento_Wishlist
 "We can't add the item to Wish List right now.","해당 상품을 일시적으로 위시리스트에 담을 수 없습니다.",module,Magento_Wishlist
@@ -2640,7 +2543,6 @@ error-message,"에러 메세지",module,Magento_Wishlist
 "Add All to Cart","모두 장바구니에 담기",module,Magento_Wishlist
 "Update Wish List","위시리스트 업데이트",module,Magento_Wishlist
 "Move to Wishlist","위시리스트로 이동",module,Magento_Wishlist
-"Add to Wish List","위시리스트에 추가",module,Magento_Wishlist
 "View Product","상품 보기",module,Magento_Wishlist
 Qty,수량,module,Magento_Wishlist
 "Add to Cart","장바구니에 추가",module,Magento_Wishlist
@@ -2651,12 +2553,9 @@ Edit,수정,module,Magento_Wishlist
 "Remove item","항목 삭제",module,Magento_Wishlist
 "Add to Compare","비교하기에 추가",module,Magento_Wishlist
 "This Wish List has no Items","이 위시리스트에는 아무것도 없습니다.",module,Magento_Wishlist
-"%1 has been added to your Wish List.","%1이(가) 위시리스트에 추가되었습니다.",module,Magento_Wishlist
-"Click <a href=""%1"">here</a> to continue shopping.","<a href=""%1"">
- 여기를 눌러</a>
- 쇼핑을 계속 하십시오.",module,Magento_Wishlist
 "See Details","상세 보기",module,Magento_Wishlist
 Product,상품,module,Magento_Wishlist
+"Add to Wish List","위시리스트에 추가",module,Magento_Wishlist
 "* Required Fields","* 필수 항목",module,Magento_Wishlist
 "Sharing Information","공유 정보",module,Magento_Wishlist
 "Email addresses, separated by commas","콤마로 구분된 이메일 주소",module,Magento_Wishlist
@@ -2668,10 +2567,6 @@ Remove,삭제,theme,frontend/Magento/luma
 "Remove This Item","해당 상품 삭제",theme,frontend/Magento/luma
 "Shop By",정렬순서,theme,frontend/Magento/luma
 "Clear All","모두 지우기",theme,frontend/Magento/luma
-"Place Order",주문하기,module,Magento_Authorizenet
-"Place Order",주문하기,module,Magento_Braintree
-"Attention: Captcha is case sensitive.","주의: 보안문자(CAPTCHA)는 대소문자를 구분합니다.",module,Magento_Captcha
-"Payment Transaction Failed Reminder","결제 실패 알림",module,Magento_Checkout
 "Payment Transaction Failed","결제가 실패하였습니다.",module,Magento_Checkout
 Reason,원인,module,Magento_Checkout
 "Checkout Type","결제 아웃 유형",module,Magento_Checkout
@@ -2682,34 +2577,10 @@ Total:,합계:,module,Magento_Checkout
 "Shipping Method:","배송 방법:",module,Magento_Checkout
 "Payment Method:","결제 방법:",module,Magento_Checkout
 "Date & Time:","날짜와 시간:",module,Magento_Checkout
-"Sign In",로그인,module,Magento_Checkout
-"Email Address","이메일 주소",module,Magento_Checkout
-Password,비밀번호:,module,Magento_Checkout
-"Forgot Your Password?","비밀번호를 잊으셨나요?",module,Magento_Checkout
-"My billing and shipping address are the same","배송 주소 동일",module,Magento_Checkout
-Update,업데이트,module,Magento_Checkout
-Cancel,취소,module,Magento_Checkout
-"Save in address book","주소록에 저장",module,Magento_Checkout
-"Estimated Total","총 예상액",module,Magento_Checkout
-"You can create an account after checkout.","결제 후 계정을 만들 수 있습니다.",module,Magento_Checkout
-"You already have an account with us. Sign in or continue as guest.","이미 가입된 계정입니다. 로그인하시거나 손님으로 계속하세요.",module,Magento_Checkout
-Login,로그인,module,Magento_Checkout
-"See Details","자세히 보기",module,Magento_Checkout
-"Options Details","옵션 정보",module,Magento_Checkout
-Remove,삭제,module,Magento_Checkout
-"Cart Subtotal","장바구니 소계",module,Magento_Checkout
-"Payment Information","결제 정보",module,Magento_Checkout
-"No Payment method available.","가능한 지불방법이 없습니다.",module,Magento_Checkout
-"You can track your order status by creating an account.","회원가입을 하면 주문 상태를 추적할 수 있습니다.",module,Magento_Checkout
-"Place Order",주문확정,module,Magento_Checkout
-"Forgot an Item?","잊으신 상품이 있나요?",module,Magento_Checkout
-"Edit Your Cart","장바구니 수정",module,Magento_Checkout
-"Ship Here","여기로 배송",module,Magento_Checkout
-"Ship To:",배송:,module,Magento_Checkout
-edit,편집,module,Magento_Checkout
-"Order Summary","주문 요약",module,Magento_Checkout
-"View Details","자세히 보기",module,Magento_Checkout
-"Welcome to %store_name","%store_name 에 오신 것을 환영합니다.",module,Magento_Customer
+"Name: %name","이름: %name",module,Magento_Contact
+"Email: %email","이메일: %email",module,Magento_Contact
+"Phone Number: %telephone","전화 번호: %telephone",module,Magento_Contact
+"Comment: %comment","코멘트: %comment",module,Magento_Contact
 "Welcome to %store_name.","%store_name에 오신 것을 환영합니다.",module,Magento_Customer
 Email:,이메일:,module,Magento_Customer
 Password:,비밀번호:,module,Magento_Customer
@@ -2720,52 +2591,17 @@ Password:,비밀번호:,module,Magento_Customer
 "Check the status of orders","주문 상태 확인",module,Magento_Customer
 "View past orders","주문 내역 확인",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","대체 주소 저장(가족이나 친구등 여러명에게 발송시 사용)",module,Magento_Customer
-"Please confirm your %store_name account","%store_name의 계정을 확인해 주십시오.",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","%customer_email로 발송된 메일을 확인해야만 로그인할 수 있습니다.(링크는 한번만 유효합니다)",module,Magento_Customer
 "Confirm Your Account","계정 확인",module,Magento_Customer
 "Thank you for confirming your %store_name account.","%store_name 계정을 확인해 주셔서 감사합니다.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","로그인해서 비밀번호를 설정하려면 <a href=""%create_password_url"">이곳을</a> 클릭하십시오:",module,Magento_Customer
-"Your %store_name email has been changed","%store_name에서 고객님의 이메일이 변경되었습니다.",module,Magento_Customer
-"Hello,","안녕하세요,",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: email.","%store_name에서 고객님의 정보변경을 요청받았습니다: 이메일",module,Magento_Customer
-"If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","고객님께서 직접 요청한것이 아니면 즉시 <a href=""mailto:%store_email""> %store_email</a> 로 연락을 주시거나",module,Magento_Customer
-"or call us at <a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>로 전화 주시기 바랍니다.",module,Magento_Customer
-"Thanks,<br>%store_name","감사합니다,<br>%store_name",module,Magento_Customer
-"Your %store_name email and password has been changed","%store_name에서 사용하는 이메일과 비밀번호가 변경되었습니다.",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: email, password.","%store_name에서 고객님의 정보변경을 요청받았습니다 : 이메일, 비밀번호.",module,Magento_Customer
-"Reset your %store_name password","%store_name 비밀번호 초기화",module,Magento_Customer
 "There was recently a request to change the password for your account.","최근 고객님의 계정에 대한 비밀번호 변경이 요청되었습니다.",module,Magento_Customer
 "If you requested this change, set a new password here:","변경요청을 하신 것이 맞으시면, 비밀번호를 재설정 해주십시오.",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","만약 이 요청을 고객님께서 하시지 않으셨다면 이 이메일은 무시해도 무방합니다. 이메일주소와 비밀번호는 이전 그대로 유지됩니다.",module,Magento_Customer
-"Your %store_name password has been changed","%store_name에서 고객님의 비밀번호가 변경되었습니다.",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: password.","%store_name에서 고객님의 정보변경을 요청받았습니다: 비밀번호",module,Magento_Customer
-"Creating an account has many benefits:","계정을 생성하면 많은 혜택이 있습니다.",module,Magento_Customer
-"See order and shipping status","주문 및 배송 상태 보기",module,Magento_Customer
-"Track order history","주문 이력 확인",module,Magento_Customer
-"Check out faster","간편한 결제",module,Magento_Customer
-"Email Address","이메일 주소",module,Magento_Customer
-"Gift Message (optional)","선물 메시지 (선택 사항)",module,Magento_GiftMessage
-Message:,메시지:,module,Magento_GiftMessage
-Update,확인,module,Magento_GiftMessage
-"Gift options","선물 메시지",module,Magento_GiftMessage
-Edit,수정,module,Magento_GiftMessage
-Delete,삭제,module,Magento_GiftMessage
-"Newsletter subscription confirmation","뉴스레터 구독 확인",module,Magento_Newsletter
+"The password for your account has been successfully changed.","비밀번호가 성공적으로 변경되었습니다.",module,Magento_Customer
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","뉴스레터를 구독하시려면 먼저 다음 링크를 클릭하여 구독을 승인해주셔야 합니다:",module,Magento_Newsletter
-"Newsletter subscription success","뉴스레터 가입 성공",module,Magento_Newsletter
 "You have been successfully subscribed to our newsletter.","뉴스레터 구독신청에 성공하였습니다.",module,Magento_Newsletter
-"Newsletter unsubscription success","뉴스레터 구독 해지 성공",module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.","뉴스레터 구독을 취소하였습니다.",module,Magento_Newsletter
-"Place Order",주문하기,module,Magento_OfflinePayments
-"Place Order",주문하기,module,Magento_Payment
-"Forgot an Item?","잊으신 상품이 있나요?",module,Magento_Payment
-"Edit Your Cart","장바구니 수정",module,Magento_Payment
-"Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","이 컴퓨터에서 로그인하지 않고도 장바구나를 확인하시려면 저장하기에 체크하세요.",module,Magento_Persistent
-"Products back in stock alert","재고가 생기면 알림",module,Magento_ProductAlert
-"Apply Discount Code","할인 코드 적용",module,Magento_SalesRule
-"Enter discount code","할인 코드를 입력하세요",module,Magento_SalesRule
-"Apply Discount","할인 적용",module,Magento_SalesRule
-"Cancel coupon","쿠폰 취소",module,Magento_SalesRule
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","<a href=""%account_url"">
  계정에 로그인</a>
  하여 주문 상태를 확인할 수 있습니다.",module,Magento_Sales
@@ -2782,33 +2618,16 @@ Delete,삭제,module,Magento_GiftMessage
 "Your Order <span class=""no-link"">#%increment_id</span>","주문번호 <span class=""no-link"">%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Placed on <span class=""no-link"">
  %created_at</span>",module,Magento_Sales
-"Your %store_name order has shipped","%store_name 에서 주문하신 상품의 배송이 시작되었습니다.",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","배송에 관한 정보는 아래를 참조하십시오. 주문해주셔서 다시 한번 감사드립니다.",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","주문번호 %order_id의 배송이 시작되었습니다. 배송번호는 %shipment_id 입니다.",module,Magento_Sales
-"Welcome, %name","%name님, 환영합니다!",module,Magento_SendFriend
-"See our Shipping Policy","배송정책 보기",module,Magento_Shipping
-"Sitemap generate Warnings","사이트맵 생성 경고",module,Magento_Sitemap
 "Sitemap Generation Warnings","사이트맵 생성 경고",module,Magento_Sitemap
-"Welcome to %store_name.","%store_name에 오신 것을 환영합니다.",module,Magento_Theme
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">
- My Account</a>
- page:",module,Magento_Theme
-Email:,"이메일 주소:",module,Magento_Theme
-Password:,비밀번호:,module,Magento_Theme
-"Password you set when creating account","회원가입시 설정한 암호",module,Magento_Theme
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","비밀번호를 잊으셨나요? <a href=""%reset_url"">여기를 클릭</a>해서 재설정 할 수 있습니다.",module,Magento_Theme
-"When you sign in to your account, you will be able to:","로그인을 하시면 다음 사항들을 하실 수 있습니다:",module,Magento_Theme
-"View past orders","지난 주문내역",module,Magento_Theme
-"Store alternative addresses (for shipping to multiple family members and friends)","대체 주소 저장(가족이나 친구등 여러명에게 발송시 사용)",module,Magento_Theme
-"Password Reset Confirmation for %name","%name에 대한 비밀번호 재설정 확인",module,Magento_User
+"The password for your account has been successfully changed.","비밀번호가 성공적으로 변경되었습니다.",module,Magento_User
 "There was recently a request to change the password for your account.","최근 고객님의 계정에 대한 비밀번호 변경이 요청되었습니다.",module,Magento_User
 "If you requested this change, reset your password here:","변경요청을 하신 것이 맞으시면, 다음 링크에서 비밀번호 재설정을 해주세요:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","만약 이 요청을 고객님께서 하시지 않으셨다면 이 이메일은 무시해도 무방합니다. 이메일주소와 비밀번호는 이전 그대로 유지됩니다.",module,Magento_User
-"We have received a request to change the following information associated with your account at %store_name: %changes.","%store_name에서 고객님의 정보변경을 요청받았습니다: %changes",module,Magento_User
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name님이 %store_name의 위시리스트를 공유하려 합니다:",module,Magento_Wishlist
 "Message from %customer_name:","%customer_name님의 메세지:",module,Magento_Wishlist
 "View all Wish List items","위시리스트의 모든 항목 보기",module,Magento_Wishlist
-"Welcome to %store_name","%store_name 에 오신 것을 환영합니다.",theme,frontend/Magento/luma
 "Welcome to %store_name.","%store_name에 오신 것을 환영합니다.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">
  My Account</a>
@@ -2842,48 +2661,33 @@ Password:,비밀번호:,theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","주문번호 <span class=""no-link"">%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Placed on <span class=""no-link"">
  %created_at</span>",theme,frontend/Magento/luma
-"Your %store_name order has shipped","%store_name 에서 주문하신 상품의 배송이 시작되었습니다.",theme,frontend/Magento/luma
 "We could not detect a size.","사이즈를 알 수 없습니다.",module,Magento_Backend
 "We don't recognize or support this file extension type.","해당 파일의 확장자를 인식할 수 없거나 지원하지 않는 형식입니다.",module,Magento_Backend
 "Add Products to New Option","상품을 신규 옵션으로 추가",module,Magento_Bundle
 "Add Products to Option ""%1""","상품을 옵션 ""%1""에 추가",module,Magento_Bundle
+"Add Selected Products","선택된 상품 추가",module,Magento_Bundle
 "Warning message","경고 메세지",module,Magento_Catalog
+Cancel,취소,module,Magento_Catalog
 "We don't recognize or support this file extension type.","해당 파일의 확장자를 인식할 수 없거나 지원하지 않는 형식입니다.",module,Magento_Catalog
 "Select type of option.","옵션 타입을 선택해 주십시오.",module,Magento_Catalog
 "Please add rows to option.","옵션에 열 추가",module,Magento_Catalog
+"New Option","신규 옵션",module,Magento_Catalog
+"Select Product","상품 선택",module,Magento_Catalog
 "Please select items.","선택 하세요.",module,Magento_Catalog
 "Choose existing category.","카테고리를 선택해 주십시오.",module,Magento_Catalog
+"Create Category","카테고리 만들기",module,Magento_Catalog
 "Image Detail","이미지 상세",module,Magento_Catalog
-Adding...,추가중...,module,Magento_Catalog
-Added,추가됨,module,Magento_Catalog
 "unselect all","모두 해제",module,Magento_Catalog
-Close,닫기,module,Magento_CheckoutAgreements
-"Provided Zip/Postal Code seems to be invalid.","입력된 우편번호가 잘못된 것으로 보입니다.",module,Magento_Checkout
-"If you believe it is the right one you can ignore this notice.","입력하신 내용이 맞다면 해당 경고는 무시해 주십시오.",module,Magento_Checkout
-"New Address","신규 주소",module,Magento_Checkout
-"Are you sure you would like to remove this item from the shopping cart?","장바구니에서 이 항목을 제거 하시겠습니까?",module,Magento_Checkout
-"Review & Payments","검토 및 결제",module,Magento_Checkout
-Shipping,배송,module,Magento_Checkout
-"Save Address","주소 저장",module,Magento_Checkout
 "We could not detect a size.","사이즈를 알 수 없습니다.",module,Magento_Cms
-"New Product Review","새로운 상품 리뷰",module,Magento_ConfigurableProduct
-"Enable Product","상품 활성화",module,Magento_ConfigurableProduct
 "Incl. Tax","세금 포함",module,Magento_ConfigurableProduct
 "We don't recognize or support this file extension type.","해당 파일의 확장자를 인식할 수 없거나 지원하지 않는 형식입니다.",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","정말로 이 작업을 수행하겠습니까?",module,Magento_Customer
 "Are you sure you want to delete this address?","정말로 주소를 삭제하겠습니까?",module,Magento_Customer
-Weak,약함,module,Magento_Customer
-Medium,중간,module,Magento_Customer
-Strong,강함,module,Magento_Customer
-"Very Strong","매우 강함",module,Magento_Customer
-"Guest checkout is disabled.","비회원 결제를 사용할 수 없습니다.",module,Magento_Customer
 "We could not detect a size.","사이즈를 알 수 없습니다.",module,Magento_Downloadable
 "Please choose a payment method.","결제방법을 선택해 주십시오.",module,Magento_Multishipping
 Save,저장,module,Magento_ProductVideo
 Cancel,취소,module,Magento_ProductVideo
 "This won't take long . . .","오래 걸리지 않습니다.",module,Magento_Rule
-Yes,네,module,Magento_Ui
-No,아니오,module,Magento_Ui
 "Please enter more or equal than {0} symbols.","{0}자 이상의 글자를 입력해 주십시오.",module,Magento_Ui
 "Please enter less or equal than {0} symbols.","{0}자 이하의 글자를 입력해 주십시오.",module,Magento_Ui
 "Please enter {0} words or less.","{0} 이하의 단어를 입력해 주시기 바랍니다.",module,Magento_Ui
@@ -2907,7 +2711,6 @@ No,아니오,module,Magento_Ui
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","올바른 전화번호를 입력해 주십시오. 예: (123) 456-789, 123-456-7890",module,Magento_Ui
 "Please enter a valid fax number (Ex: 123-456-7890).","올바른 팩스 번호를 입력 하십시오. 예: 123-456-7890",module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","올바른 이메일 주소를 입력 하십시오. 예: johndoe@domain.com",module,Magento_Ui
-"Please enter 6 or more characters. Leading and trailing spaces will be ignored.","6개 이상의 문자를 입력 하십시오. 앞뒤의 공백은 무시됩니다.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","7자 이상의이상의 숫자및 영문자를 입력해 주십시오.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","올바른 URL을 입력해 주십시오. 프로토콜은 필수입니다 (http://, https:// 또는 ftp://).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","올바른 URL을 입력 하십시오. 예: http://www.example.com, www.example.com",module,Magento_Ui
@@ -2926,18 +2729,10 @@ No,아니오,module,Magento_Ui
 "Please enter a valid date.","올바른 날짜를 입력해 주십시오.",module,Magento_Ui
 "Please enter a valid zip code.","올바른 우편번호를 입력해 주십시오.",module,Magento_Ui
 "Please select State/Province.","시/도 선택 하십시오.",module,Magento_Ui
-"Please enter a value less than or equal to {0}.","{0} 이하의 값을 입력해 주십시오.",module,Magento_Ui
-"Please enter a value greater than or equal to {0}.","{0} 이상의 값을 입력해 주십시오.",module,Magento_Ui
 "This is a required field.","필수 항목 입니다.",module,Magento_Ui
 "Please enter positive number in this field.","이 필드에는 양수를 입력해 주십시오.",module,Magento_Ui
 "Please enter a valid value, ex: 10,20,30","올바른 값을 입력해 주십시오. 예: 10,20,30",module,Magento_Ui
-"We don't recognize or support this file extension type.","해당 파일의 확장자를 인식할 수 없거나 지원하지 않는 형식입니다.",module,Magento_Ui
-"File you are trying to upload exceeds maximum file size limit.","업로드 가능한 최대 파일 크기를 초과했습니다.",module,Magento_Ui
-"The date is not within the specified range.","날짜가 지정된 범위 내에 없습니다.",module,Magento_Ui
 Attention,주의,module,Magento_Ui
-Cancel,취소,module,Magento_Vault
-"Show Toolbar","도구 모음 보기",module,Magento_AdminNotification
-"Show List","목록 보기",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","피드를 가져올 때 HTTPS 사용하기",module,Magento_AdminNotification
 "Update Frequency","업데이트 빈도",module,Magento_AdminNotification
 "Last Update","마지막 업데이트",module,Magento_AdminNotification
@@ -2959,27 +2754,6 @@ Debug,디버그,module,Magento_Authorizenet
 "Minimum Order Total","최소 주문 합계",module,Magento_Authorizenet
 "Maximum Order Total","최대 주문 합계",module,Magento_Authorizenet
 "Sort Order","정렬 순서",module,Magento_Authorizenet
-"Allow everything","모두 허용",module,Magento_Backend
-"Magento Admin","마젠토 관리자",module,Magento_Backend
-"Global Search","글로벌 검색",module,Magento_Backend
-Marketing,마케팅,module,Magento_Backend
-"SEO & Search","검색 엔진 최적화 및 검색",module,Magento_Backend
-"User Content","사용자 콘텐츠",module,Magento_Backend
-Content,콘텐츠,module,Magento_Backend
-Elements,요소,module,Magento_Backend
-Design,디자인,module,Magento_Backend
-Schedule,스케줄,module,Magento_Backend
-Settings,설정,module,Magento_Backend
-Attributes,어트리뷰트,module,Magento_Backend
-"Other Settings","기타 설정",module,Magento_Backend
-"Data Transfer","데이터 전송",module,Magento_Backend
-"Magento Connect","마젠토 커넥트",module,Magento_Backend
-"Connect Manager","커넥트 관리자",module,Magento_Backend
-"Package Extensions","패키지 익스텐션",module,Magento_Backend
-Tools,도구,module,Magento_Backend
-"Web Setup Wizard","웹 설치 마법사",module,Magento_Backend
-Currency,통화,module,Magento_Backend
-Communications,커뮤니케이션,module,Magento_Backend
 Services,서비스,module,Magento_Backend
 Advanced,고급,module,Magento_Backend
 "Disable Modules Output","모듈 출력 비활성화",module,Magento_Backend
@@ -2989,13 +2763,17 @@ Advanced,고급,module,Magento_Backend
 "Sender Name","보내는 사람 이름",module,Magento_Backend
 "Custom Email 2","커스텀 이메일 2",module,Magento_Backend
 "Customer Support","고객 지원",module,Magento_Backend
+Design,디자인,module,Magento_Backend
+Pagination,"페이지 목록",module,Magento_Backend
+"Pagination Frame","페이지 목록 프레임",module,Magento_Backend
+"How many links to display at once.","얼마나 많은 링크를 한번에 표시하겠습니까?",module,Magento_Backend
+"Pagination Frame Skip","페이지 목록 프레임 넘기기",module,Magento_Backend
 Developer,개발자,module,Magento_Backend
 Debug,디버그,module,Magento_Backend
 "Template Settings","템플릿 설정",module,Magento_Backend
 "Allow Symlinks","심볼릭 링크 허용",module,Magento_Backend
 "Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","경고! 프로덕션 환경에서 해당 기능 활성화는 권장하지 않습니다! 잠재적인 보안 위험성이 있습니다.",module,Magento_Backend
 "Minify Html","Html 압축",module,Magento_Backend
-"Minification is not applied in developer mode.","압축은 개발자 모드에서는 지원되지 않습니다.",module,Magento_Backend
 "Translate Inline","인라인 번역",module,Magento_Backend
 "Enabled for Storefront","스토어프론트에 사용",module,Magento_Backend
 "Enabled for Admin","관리자에 사용",module,Magento_Backend
@@ -3034,16 +2812,14 @@ Host,호스트,module,Magento_Backend
 Admin,관리자,module,Magento_Backend
 "Admin User Emails","관리자 이메일",module,Magento_Backend
 "Forgot Password Email Template","이메일 분실 템플릿",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","1이상의 숫자를 넣어주십시오.",module,Magento_Backend
 "Startup Page","시작 페이지",module,Magento_Backend
 "Admin Base URL","관리자 기본 URL",module,Magento_Backend
 "Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","URL 마지막에 '/' (슬래시)를 반드시 넣어주십시오.예) http://yourdomain/magento/",module,Magento_Backend
 Security,보안,module,Magento_Backend
-"Recovery Link Expiration Period (hours)","복구 링크 유효기간(시간)",module,Magento_Backend
-"Please enter a number 1 or greater in this field.","1이상의 숫자를 넣어주십시오.",module,Magento_Backend
 "Add Secret Key to URLs","URL에 비밀키 추가",module,Magento_Backend
 "Login is Case Sensitive","로그인은 대소문자를 구분합니다",module,Magento_Backend
 "Admin Session Lifetime (seconds)","관리자 세션 수명 (초)",module,Magento_Backend
-"Please enter at least 60 and at most 31536000 (one year).","60에서 31536000(1년) 사이의 값을 입력해 주십시오.",module,Magento_Backend
 "Enable Charts","차트 활성화",module,Magento_Backend
 Web,웹,module,Magento_Backend
 "Url Options","Url 옵션",module,Magento_Backend
@@ -3063,7 +2839,6 @@ Web,웹,module,Magento_Backend
 "Secure Base URL for User Media Files","미디어 파일을 위한 보안 기본 URL",module,Magento_Backend
 "Use Secure URLs on Storefront","스토어에 보안 URL 사용",module,Magento_Backend
 "Use Secure URLs in Admin","관리자에 보안 URL 사용",module,Magento_Backend
-"Enable HTTP Strict Transport Security (HSTS)","엄격한 HTTP 전송 보안 (HSTS) 사용",module,Magento_Backend
 "Default Pages","기본 페이지",module,Magento_Backend
 "Default Web URL","기본 웹 URL",module,Magento_Backend
 "Default No-route URL","기본 No-route URL",module,Magento_Backend
@@ -3078,20 +2853,6 @@ Web,웹,module,Magento_Backend
 Tags,태그,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 에러</h1><p>페이지가 없습니다.</p>",module,Magento_Backend
 "Community Edition","커뮤니티 에디션",module,Magento_Backend
-"Default Theme","기본 테마",module,Magento_Backend
-"If no value is specified, the system default is used. The system default may be modified by third party extensions.","값을 지정하지 않으면 시스템 기본값을 사용합니다. 시스템 기본값은 외부 익스텐션을 이용해서 수정할 수 있습니다.",module,Magento_Backend
-"Applied Theme","적용된 테마",module,Magento_Backend
-"Design Rule","디자인 규칙",module,Magento_Backend
-"User Agent Rules","User Agent 규칙",module,Magento_Backend
-Pagination,"페이지 목록",module,Magento_Backend
-"How many links to display at once.","얼마나 많은 링크를 한번에 표시하겠습니까?",module,Magento_Backend
-"Pagination Frame","페이지 목록 프레임",module,Magento_Backend
-"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","현재 프레임 위치가 최대 페이지를 포함하지 않으면, 현재 위치에서 해당값을 더하거나 빼서 표시합니다.",module,Magento_Backend
-"Pagination Frame Skip","페이지 목록 프레임 넘기기",module,Magento_Backend
-"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","페이지 목록 메뉴에서 사용될 이전 페이지 링크의 대체 텍스트 입니다. 빈칸이면 기본 화살표 이미지가 사용됩니다.",module,Magento_Backend
-"Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","페이지 목록 메뉴에서 사용될 다음 페이지 링크의 대체 텍스트 입니다. 빈칸이면 기본 화살표 이미지가 사용됩니다.",module,Magento_Backend
-"Theme Name","테마 이름",module,Magento_Backend
-Rollback,롤백,module,Magento_Backup
 "Scheduled Backup Settings","스케쥴 백업 설정",module,Magento_Backup
 "Enable Scheduled Backup","스케쥴 백업 활성화",module,Magento_Backup
 "Backup Type","백업 타입",module,Magento_Backup
@@ -3106,11 +2867,10 @@ Size(bytes),크기(bytes),module,Magento_Backup
 Type,타입,module,Magento_Backup
 Download,다운로드,module,Magento_Backup
 Action,동작,module,Magento_Backup
+Rollback,롤백,module,Magento_Backup
+"New Order Status","새 주문 진행상태",module,Magento_Braintree
 "Sort Order","정렬 순서",module,Magento_Braintree
-Select...,선택...,module,Magento_Bundle
-Status,상태,module,Magento_Bundle
-Thumbnail,썸네일,module,Magento_Bundle
-Type,타입,module,Magento_Bundle
+"Edit My Credit Cards","신용 카드 편집",module,Magento_Braintree
 CAPTCHA,"보안 문자",module,Magento_Captcha
 Font,폰트,module,Magento_Captcha
 Forms,폼,module,Magento_Captcha
@@ -3130,19 +2890,11 @@ Backorders,백오더,module,Magento_CatalogInventory
 "Qty Increments","수량 증가",module,Magento_CatalogInventory
 Stock,재고,module,Magento_CatalogInventory
 "Index stock","재고 인덱스",module,Magento_CatalogInventory
-"Use Config Settings","스토어 설정값 사용",module,Magento_CatalogInventory
-"Qty Uses Decimals","수량에 소수점 사용",module,Magento_CatalogInventory
-"Allow Multiple Boxes for Shipping","배송시 복수 박스 포장 허용",module,Magento_CatalogInventory
+Quantity,수량,module,Magento_CatalogInventory
 "Catalog Product Rule","카탈로그 상품 규칙",module,Magento_CatalogRule
 Rule,규칙,module,Magento_CatalogRule
-Back,이전,module,Magento_CatalogRule
-Actions,동작,module,Magento_CatalogRule
-Apply,적용,module,Magento_CatalogRule
-"Discount Amount","할인 금액",module,Magento_CatalogRule
-Yes,네,module,Magento_CatalogRule
-No,아니오,module,Magento_CatalogRule
-"Catalog Search","상품 검색",module,Magento_CatalogSearch
 "Popular Search Terms","인기있는 검색어",module,Magento_CatalogSearch
+"Catalog Search","상품 검색",module,Magento_CatalogSearch
 "Minimal Query Length","최소 검색어",module,Magento_CatalogSearch
 "Maximum Query Length","최대 검색어",module,Magento_CatalogSearch
 "Category URL Suffix","카테고리 URL 접미사",module,Magento_CatalogUrlRewrite
@@ -3159,6 +2911,7 @@ Template,템플릿,module,Magento_CatalogWidget
 "Products Grid Template","상품 그리드 템플릿",module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","캐시 활성시간 (초)",module,Magento_CatalogWidget
 Conditions,조건,module,Magento_CatalogWidget
+Thumbnail,썸네일,module,Magento_Catalog
 Storefront,스토어프론트,module,Magento_Catalog
 "List Mode","리스트 모드",module,Magento_Catalog
 "Products per Page on Grid Allowed Values","그리드 보기에서 페이지당 보이는 상품 수",module,Magento_Catalog
@@ -3181,7 +2934,7 @@ Comma-separated.,"콤마 구분.",module,Magento_Catalog
 "Time Format","시간 형식",module,Magento_Catalog
 "Year Range","연도 범위",module,Magento_Catalog
 "Please use a four-digit year format.","4자리 연도를 사용해 주십시오.",module,Magento_Catalog
-"Category Products","카테고리 상품",module,Magento_Catalog
+"Product Image Watermarks","상품 이미지 워터마크",module,Magento_Catalog
 "Product Categories","상품 카테고리",module,Magento_Catalog
 "Product Price","상품 가격",module,Magento_Catalog
 "Index product prices","상품 가격 인덱스",module,Magento_Catalog
@@ -3205,55 +2958,25 @@ Template,템플릿,module,Magento_Catalog
 "Catalog Category Link","카탈로그 카테고리 링크",module,Magento_Catalog
 "Select Category...","카테고리 선택...",module,Magento_Catalog
 "If empty, we'll use the category name here.","비어있다면 카테고리 이름을 사용합니다.",module,Magento_Catalog
-Image,이미지,module,Magento_Catalog
-"Add to Wishlist","위시리스트에 추가",module,Magento_Catalog
-"Category Information","카테고리 정보",module,Magento_Catalog
-"Enable Category","카테고리 활성화",module,Magento_Catalog
-"Include in Menu","메뉴에 포함",module,Magento_Catalog
-Content,내용,module,Magento_Catalog
-"Category Image","카테고리 이미지",module,Magento_Catalog
-"Add CMS Block","CMS 블럭 추가",module,Magento_Catalog
-"Use All","모두 사용",module,Magento_Catalog
-"URL Key","URL 키",module,Magento_Catalog
-"Meta Title","메타 타이틀",module,Magento_Catalog
-"Meta Keywords","메타 키워드",module,Magento_Catalog
-"Meta Description","메타 설명",module,Magento_Catalog
-"Products in Category","카테고리 상품",module,Magento_Catalog
-Design,디자인,module,Magento_Catalog
-Theme,테마,module,Magento_Catalog
-Layout,레이아웃,module,Magento_Catalog
-"Layout Update XML","레이아웃 업데이트 XML",module,Magento_Catalog
-"Apply Design to Products","상품에 디자인 적용",module,Magento_Catalog
-AttributeSetText,"어트리뷰트 세트 텍스트",module,Magento_Catalog
-StatusText,"상태 텍스트",module,Magento_Catalog
-"Product Image Watermarks","상품 이미지 워터마크",module,Magento_Catalog
-"Allowed file types: jpeg, gif, png.","사용가능한 파일 형식: jpeg, gif, png",module,Magento_Catalog
-"Image Opacity","이미지 투명도",module,Magento_Catalog
-"Example format: 200x300.","형식 예: 200x300",module,Magento_Catalog
-"Image Position","이미지 위치",module,Magento_Catalog
-"Attribute Properties","어트리뷰트 속성",module,Magento_Catalog
-"Attribute Label","어트리뷰트 라벨",module,Magento_Catalog
-Values,밸류,module,Magento_Catalog
-"Add this attribute to the list of column options in the product grid.","해당 어트리뷰트를 제품 그리드의 열 옵션 목록에 추가합니다.",module,Magento_Catalog
-"Add this attribute to the list of filter options in the product grid.","해당 어트리뷰트를 제품 그리드의 필터 옵션 목록에 추가합니다.",module,Magento_Catalog
-System,시스템,module,Magento_Catalog
 "All Store Views","모든 스토어뷰",module,Magento_Catalog
-"Delete selected items?","선택한 항목을 삭제하시겠습니까?",module,Magento_Catalog
 "Delete items","항목 삭제",module,Magento_Catalog
+"Delete selected items?","선택한 항목을 삭제하시겠습니까?",module,Magento_Catalog
 "Change status","상태 변경",module,Magento_Catalog
 "Update attributes","어트리뷰트 업데이트",module,Magento_Catalog
+none,없음,module,Magento_Catalog
 Details,상세,module,Magento_Catalog
-"Terms & Conditions",이용약관,module,Magento_CheckoutAgreements
 "Enable Terms and Conditions","이용약관 활성화",module,Magento_CheckoutAgreements
 "Checkout Options","체크아웃 옵션",module,Magento_Checkout
 "Enable Onepage Checkout","원페이지 체크아웃 활성화",module,Magento_Checkout
 "Allow Guest Checkout","비회원 체크아웃을 허용",module,Magento_Checkout
+"Require Customer To Be Logged In To Checkout","체크아웃을 하기 위해서는 로그인 필요",module,Magento_Checkout
 "Quote Lifetime (days)","견적 유효기간(일)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","제품을 장바구니에 담은 후에는 장바구니 페이지로 이동",module,Magento_Checkout
 "My Cart Link","내 장바구니 링크",module,Magento_Checkout
 "Display Cart Summary","장바구니 요약 노출",module,Magento_Checkout
 "Shopping Cart Sidebar","장바구니 사이드바",module,Magento_Checkout
 "Display Shopping Cart Sidebar","장바구니 사이드바 노출",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","최근 추가한 상품 최대 표시",module,Magento_Checkout
 "Payment Failed Emails","결제 실패 이메일",module,Magento_Checkout
 "Payment Failed Email Sender","결제 실패 송신자",module,Magento_Checkout
 "Payment Failed Email Receiver","결제 실패 수신자",module,Magento_Checkout
@@ -3261,22 +2984,25 @@ Details,상세,module,Magento_Catalog
 "Send Payment Failed Email Copy To","결제 실패정보 메일 추가 발송처",module,Magento_Checkout
 "Separate by "","".","컴마(,) 로 구분.",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","결제 실패정보 메일 추가 발송 방법",module,Magento_Checkout
-Summary,요약,module,Magento_Checkout
+Shipping,배송,module,Magento_Checkout
 "Order Total","주문 합계",module,Magento_Checkout
 "Shipping Address","배송지 주소",module,Magento_Checkout
+"Save Address","주소 저장",module,Magento_Checkout
+Cancel,취소,module,Magento_Checkout
 "We'll send your order confirmation here.","여기로 주문 확인서를 보내 드리겠습니다.",module,Magento_Checkout
+"For delivery questions.",배송문의,module,Magento_Checkout
 Payment,결제,module,Magento_Checkout
+"Cart Subtotal","장바구니 소계",module,Magento_Checkout
 "Not yet calculated","아직 계산되지 않았습니다.",module,Magento_Checkout
 "We received your order!","고객님의 주문이 접수되었습니다!",module,Magento_Checkout
 "Thank you for your purchase!","주문해 주셔서 감사합니다!",module,Magento_Checkout
-"Media Gallery","미디어 겔러리",module,Magento_Cms
-"Content Management","컨텐츠 관리",module,Magento_Cms
 "CMS Home Page","CMS 홈페이지",module,Magento_Cms
 "Show Breadcrumbs for CMS Pages","CMS 페이지를 위한 Breadcrumbs 보기",module,Magento_Cms
 "Browser Capabilities Detection","브라우저 기능 감지",module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled","쿠키 비활성화시 이동할 CMS 페이지",module,Magento_Cms
 "Show Notice if JavaScript is Disabled","자바스크립트 비활성시 공지보기",module,Magento_Cms
 "Show Notice if Local Storage is Disabled","로컬 저장소 비활성시 공지보기",module,Magento_Cms
+"Content Management","컨텐츠 관리",module,Magento_Cms
 "WYSIWYG Options","WYSIWYG 옵션",module,Magento_Cms
 "Enable WYSIWYG Editor","WYSIWYG 에디터 활성화",module,Magento_Cms
 "CMS Page Link","CMS 페이지 링크",module,Magento_Cms
@@ -3290,37 +3016,14 @@ Template,템플릿,module,Magento_Cms
 "Contents of a Static Block","고정 블럭 컨텐츠",module,Magento_Cms
 "Select Block...","블럭 선택...",module,Magento_Cms
 "CMS Static Block Default Template","CMS 고정 블럭 기본 템플릿",module,Magento_Cms
-"General Information","기본 정보",module,Magento_Cms
-"Enable Block","블럭 활성화",module,Magento_Cms
-"Block Title","블럭 제목",module,Magento_Cms
 "Delete items","항목 삭제",module,Magento_Cms
-"Page Information","페이지 정보",module,Magento_Cms
-"Enable Page","페이지 활성화",module,Magento_Cms
-Content,컨텐츠,module,Magento_Cms
-"Content Heading","컨텐츠 해딩",module,Magento_Cms
-"Search Engine Optimisation",SEO,module,Magento_Cms
-"Meta Title","메타 타이틀",module,Magento_Cms
-"Meta Keywords","메타 키워드",module,Magento_Cms
-"Meta Description","메타 설명",module,Magento_Cms
-"Page in Websites","웹사이트의 페이지",module,Magento_Cms
-Design,디자인,module,Magento_Cms
-"Layout Update XML","레이아웃 업데이트 XML",module,Magento_Cms
-"Custom Design Update","커스텀 디자인 업데이트",module,Magento_Cms
-"New Theme","신규 테마",module,Magento_Cms
-"-- Please Select --","-- 선택해주십시오 --",module,Magento_Cms
-"New Layout","신규 레이아웃",module,Magento_Cms
+"Are you sure you wan't to delete selected items?","정말로 선택한 항목을 삭제하겠습니까?",module,Magento_Cms
 Disable,비활성,module,Magento_Cms
 Enable,활성,module,Magento_Cms
 "Custom design from","커스텀 디자인 시작",module,Magento_Cms
 "Custom design to","커스텀 디자인 종료",module,Magento_Cms
-"Custom Theme","커스텀 테마",module,Magento_Cms
-"Custom Layout","커스텀 레이아웃",module,Magento_Cms
 "Group Label","그룹 라벨",module,Magento_Config
 "Tab Label","탭 라벨",module,Magento_Config
-"Allow everything","모두 허용",module,Magento_Config
-"Magento Admin","마젠토 관리자",module,Magento_Config
-Dashboard,대시보드,module,Magento_Config
-"Manage Stores","상점 관리",module,Magento_Config
 "Field 2","필드 2",module,Magento_Config
 "Field 3","필드 3",module,Magento_Config
 "Field 3.1","필드 3.1",module,Magento_Config
@@ -3337,9 +3040,6 @@ Dashboard,대시보드,module,Magento_Config
 "Cookie Domain","쿠키 도메인",module,Magento_Cookie
 "Use HTTP Only","HTTP만 사용",module,Magento_Cookie
 "Cookie Restriction Mode","쿠키 제한 모드",module,Magento_Cookie
-Currency,통화,module,Magento_CurrencySymbol
-"All Customers","모든 고객",module,Magento_Customer
-"Now Online","현재 온라인",module,Magento_Customer
 "Account Sharing Options","계정 공유 옵션",module,Magento_Customer
 "Share Customer Accounts","고객 계정 공유",module,Magento_Customer
 "Create New Account Options","신규 계정 생성 옵션",module,Magento_Customer
@@ -3358,8 +3058,6 @@ Currency,통화,module,Magento_CurrencySymbol
 "Reset Password Template","비밀번호 재설정 템플릿",module,Magento_Customer
 "Password Template Email Sender","비밀번호 템플릿 이메일 송신자",module,Magento_Customer
 "Please enter a number 1 or greater in this field.","1이상의 숫자를 넣어주십시오.",module,Magento_Customer
-"Minimum Password Length","비밀번호 최소 글자수",module,Magento_Customer
-"Enable Autocomplete on login/forgot password forms","로그인/비밀번호 찾기에 자동 완성 사용",module,Magento_Customer
 "Name and Address Options","이름과 주소 옵션",module,Magento_Customer
 "Leave empty for default (2). Valid range: 1-4","빈칸으로 두면 기본값 2가 적용됩니다. 사용 가능 범위는 1~4 입니다.",module,Magento_Customer
 "Show Prefix","접두사 보여주기",module,Magento_Customer
@@ -3379,14 +3077,16 @@ Currency,통화,module,Magento_CurrencySymbol
 "Address Templates","주소 템플릿",module,Magento_Customer
 "Online Customers Options","온라인 고객 옵션",module,Magento_Customer
 "Leave empty for default (15 minutes).","빈칸으로 두면 기본값이 적용됩니다. (15분)",module,Magento_Customer
-"Assign a Customer Group","고객 그룹 지정",module,Magento_Customer
+"Enable Autocomplete on login/forgot password forms","로그인/비밀번호 찾기에 자동 완성 사용",module,Magento_Customer
 Group,그룹,module,Magento_Customer
 "Add New Customer","신규 고객 추가",module,Magento_Customer
-"Are you sure to delete selected customers?","선택한 고객을 삭제하겠습니까?",module,Magento_Customer
 "Delete items","항목 삭제",module,Magento_Customer
+"Are you sure to delete selected customers?","선택한 고객을 삭제하겠습니까?",module,Magento_Customer
 "Subscribe to Newsletter","뉴스레터 구독",module,Magento_Customer
-"Are you sure to unsubscribe selected customers from newsletter?","선택된 고객의 뉴스레터 구독을 정말로 취소하겠습니까?",module,Magento_Customer
 "Unsubscribe from Newsletter","뉴스레터 구독 취소",module,Magento_Customer
+"Are you sure to unsubscribe selected customers from newsletter?","선택된 고객의 뉴스레터 구독을 정말로 취소하겠습니까?",module,Magento_Customer
+"Assign a Customer Group","고객 그룹 지정",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","정말로 선택한 고객을 신규 그룹으로 지정하겠습니까?",module,Magento_Customer
 Phone,전화,module,Magento_Customer
 ZIP,우편번호,module,Magento_Customer
 "Customer Since",가입일,module,Magento_Customer
@@ -3400,13 +3100,13 @@ ZIP,우편번호,module,Magento_Customer
 "Last Activity","마지막 활동",module,Magento_Customer
 Type,타입,module,Magento_Customer
 "Customer Information","고객 정보",module,Magento_Customer
-"Are you sure you want to delete this item?","정말로 이 항목을 삭제하시겠습니까?",module,Magento_Customer
 Addresses,주소,module,Magento_Customer
+"Are you sure you want to delete this item?","정말로 이 항목을 삭제하시겠습니까?",module,Magento_Customer
 "Account Dashboard","계정 대시보드",module,Magento_Customer
 "Edit Account Information","계정 정보 수정",module,Magento_Customer
 "Password forgotten","잊혀진 암호",module,Magento_Customer
 "My Dashboard",대시보드,module,Magento_Customer
-"You are signed out",로그아웃하였습니다.,module,Magento_Customer
+"You are signed out.",로그아웃하였습니다.,module,Magento_Customer
 Password,비밀번호,module,Magento_Dhl
 "Divide Order Weight","주문 중량 나누기",module,Magento_Dhl
 "Weight Unit","중량 단위",module,Magento_Dhl
@@ -3423,8 +3123,6 @@ Enabled,활성화,module,Magento_Directory
 Service,서비스,module,Magento_Directory
 "Zip/Postal Code is Optional for","다음 국가의 우편번호는 선택사항으로 합니다.",module,Magento_Directory
 "Weight Unit","중량 단위",module,Magento_Directory
-"Downloadable Product Section","다운로드 상품 항목",module,Magento_Downloadable
-Downloads,다운로드,module,Magento_Downloadable
 "Downloadable Product Options","다운로드 상품 옵션",module,Magento_Downloadable
 "Order Item Status to Enable Downloads","주문 상품의 상태를 다운로드 허용으로 변경",module,Magento_Downloadable
 "Default Maximum Number of Downloads","기본 최대 다운로드 수",module,Magento_Downloadable
@@ -3468,10 +3166,7 @@ Enabled,활성화,module,Magento_OfflinePayments
 Enabled,활성화,module,Magento_OfflineShipping
 Price,가격,module,Magento_OfflineShipping
 "Sort Order","정렬 순서",module,Magento_OfflineShipping
-"Free Shipping","무료 배송",module,Magento_OfflineShipping
 "Minimum Order Amount","최소 주문 금액",module,Magento_OfflineShipping
-"-- Please Select --",--선택하세요--,module,Magento_OfflineShipping
-Actions,동작,module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","페이팔 계정이 없으세요? 간단히 이메일주소만 입력하세요.",module,Magento_Paypal
 Position,기본,module,Magento_Paypal
 "Sort Order","정렬 순서",module,Magento_Paypal
@@ -3481,20 +3176,14 @@ Password,비밀번호,module,Magento_Paypal
 "Allow Alert When Product Comes Back in Stock","재고가 다시 들어올 때 알림 허용",module,Magento_ProductAlert
 "Error Email Recipient","에러 이메일 받는 사람",module,Magento_ProductAlert
 "Error Email Sender","에러 메일 전송자",module,Magento_ProductAlert
-"Notify me when this product is in stock","재고가 들어오면 알려주세요.",module,Magento_ProductAlert
-"Order Total","주문 합계",module,Magento_Reports
+"Sign up to be notified when this product is back in stock.","회원가입하면 이 상품의 재고가 들어올 때 알림을 받을 수 있습니다.",module,Magento_ProductAlert
 "Recently Viewed/Compared Products","최근 본 상품/비교한 상품",module,Magento_Reports
+"Recently Viewed Products","최근 본 상품",module,Magento_Reports
+"Recently Compared Products","최근 비교한 상품",module,Magento_Reports
 Action,동작,module,Magento_Reports
 "Order Updated","주문이 업데이트되었습니다.",module,Magento_Reports
 "Last Invoice Created Date","마지막 청구서 작성 날짜",module,Magento_Reports
 "First Invoice Created Date","첫 청구서 작성 날짜",module,Magento_Reports
-"Cart Price Rule","장바구니 가격 규칙",module,Magento_SalesRule
-Back,이전,module,Magento_SalesRule
-"Rule Information","규칙 정보",module,Magento_SalesRule
-"Rule Name","규칙 이름",module,Magento_SalesRule
-"Customer Groups","고객 그룹",module,Magento_SalesRule
-Apply,적용,module,Magento_SalesRule
-"Maximum Qty Discount is Applied To","최대 수량 할인 적용",module,Magento_SalesRule
 "Allow Reorder","재주문 허용",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","PDF 인쇄 로고(200x50)",module,Magento_Sales
 "Minimum Order Amount","최소 주문 금액",module,Magento_Sales
@@ -3513,8 +3202,6 @@ Enabled,활성화,module,Magento_Sales
 "PDF Print-outs","PDF 인쇄",module,Magento_Sales
 "Display Order ID in Header","헤더에 주문 번호를 표시",module,Magento_Sales
 "Invoice Date","청구 날짜",module,Magento_Sales
-"Item Status","항목 상태",module,Magento_Sales
-"Tax Percent",세율,module,Magento_Sales
 "Purchase Point","구매 포인트",module,Magento_Sales
 "Print Invoices","청구서 인쇄",module,Magento_Sales
 "Purchase Date","구매 일자",module,Magento_Sales
@@ -3558,7 +3245,7 @@ Enabled,활성화,module,Magento_Sitemap
 "Order Total Incl. Tax","주문 합계 (부가세 포함)",module,Magento_Tax
 "Order Total","주문 합계",module,Magento_Tax
 "Your credit card will be charged for","실제 신용카드로 청구되는 금액",module,Magento_Tax
-Store,스토어,module,Magento_Theme
+"Search Engine Robots","검색 엔진 로봇",module,Magento_Theme
 Action,동작,module,Magento_Ui
 "Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","최대 포장 중량 (지원되는 최대 운송 중량은 운송 업체에 문의하십시오)",module,Magento_Ups
 "Minimum Package Weight (Please consult your shipping carrier for minimum supported shipping weight)","최소 포장 중량 (지원되는 최소 운송 중량은 운송 업체에 문의하십시오)",module,Magento_Ups
@@ -3572,19 +3259,11 @@ Password,비밀번호,module,Magento_Usps
 "Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","최대 포장 중량 (지원되는 최대 운송 중량은 운송 업체에 문의하십시오)",module,Magento_Usps
 "Sort Order","정렬 순서",module,Magento_Usps
 Name,이름,module,Magento_Variable
-"Web API Security","웹 API 보안",module,Magento_WebapiSecurity
-"Allow Anonymous Guest Access","익명 게스트 액세스 허용",module,Magento_WebapiSecurity
-"Manage Customers","고객 관리",module,Magento_Webapi
-"Create Customer","고객 생성",module,Magento_Webapi
-"Edit Customer","고객 수정",module,Magento_Webapi
-"Get Customer","고객 취득",module,Magento_Webapi
-"Delete Customer","고객 삭제",module,Magento_Webapi
 "Magento Web API","마젠토 웹 API",module,Magento_Webapi
 "SOAP Settings","SOAP 설정",module,Magento_Webapi
 "Default Response Charset","기본 응답 캐릭터셋",module,Magento_Webapi
 "If empty, UTF-8 will be used.","비어있으면 UTF-8이 사용됩니다.",module,Magento_Webapi
 "Web Services Configuration","웹서비스 설정",module,Magento_Webapi
-"REST and SOAP configurations, generated WSDL file","REST와 SOAP 설정, WSDL파일 생성",module,Magento_Webapi
 "Fixed Product Taxes","고정 제품 세금(FPT)",module,Magento_Weee
 "Enable FPT","FPT 활성화",module,Magento_Weee
 "Display Prices In Product Lists","상품 리스트의 상품 가격 표시",module,Magento_Weee
@@ -3609,6 +3288,7 @@ Quantity,수량,module,Magento_Wishlist
 Action,동작,module,Magento_Wishlist
 Delete,삭제,module,Magento_Wishlist
 "Product Details and Comment","상품 상세 정보와 코멘트",module,Magento_Wishlist
-"Account Dashboard","계정 대시보드",theme,frontend/Magento/luma
-"Address Book",주소록,theme,frontend/Magento/luma
-"Account Information","회원 계정 정보",theme,frontend/Magento/luma
+Summary,제목,theme,frontend/Magento/blank
+"Account Dashboard","계정 대시보드",theme,frontend/Magento/blank
+"Account Information","계정 정보",theme,frontend/Magento/blank
+"Address Book",주소록,theme,frontend/Magento/blank
