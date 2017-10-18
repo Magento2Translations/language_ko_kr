@@ -6,22 +6,23 @@ This translation is usefull for people living in the South Korea (대한민국).
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
 # Version & progress
-This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/ko#/Head) at Crowdin and based on the Magento 2.2.0 sourcefiles.
-There have been  3528 strings translated of the 8763 strings in the Magento source.
+This translation is generated from the branch [2.1.8](https://crowdin.com/project/magento-2/ko#/2.1.8) at Crowdin and based on the Magento 2.1.8 sourcefiles.
+There have been  3565 strings translated of the 8467 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/40)
+Translation progress:![Progress](http://progressed.io/bar/42)
 
 # Instalation
+**Please select the git branch appropriate for your magento version from this repo.**
 ## Via composer
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_ko_kr:dev-master
+composer require magento2translations/language_ko_kr:2.1.8.x-dev
 php bin/magento cache:clean
 ```
 ## Manually
 To install this language package manually you need access to your server file system.
-* Download the zip file [here](https://github.com/Magento2Translations/language_ko_kr/archive/master.zip).
+* Download the zip file [here](https://github.com/Magento2Translations/language_ko_kr/archive/2.1.8.zip).
 * Upload the contents to `<your magento path>/app/i18n/magento2translations/language_ko_kr`.
 * The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/ko_KR/ko_KR.csv`.
 * Go to your Magento admin panel and clear the caches.
