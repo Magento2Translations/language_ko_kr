@@ -1036,6 +1036,7 @@ Checkout,결제,module,Magento_Checkout
 "Page not found.","페이지를 찾을 수 없습니다.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","이용약관에 동의하신 후 계속해 주십시오.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","주문을 처리하는 동안 오류가 발생하였습니다. 나중에 다시 시도하세요.",module,Magento_Checkout
+"Payment Page","결제 페이지",module,Magento_Checkout
 "We can't find the product.","해당 상품을 찾을 수 없습니다.",module,Magento_Checkout
 "The product does not exist.","해당 상품이 존재하지 않습니다.",module,Magento_Checkout
 "We don't have some of the products you want.","주문하시려는 상품 중 일부가 품절되었습니다.",module,Magento_Checkout
@@ -1763,11 +1764,16 @@ Dropdown,드롭다운,module,Magento_Eav
 Back,이전,module,Magento_Email
 Reset,초기화,module,Magento_Email
 "Template Information","템플릿 정보",module,Magento_Email
+"General Contact Name","일반 연락처 이름",module,Magento_Email
+"General Contact Email","일반 연락처 이메일",module,Magento_Email
+"Sales Representative Contact Name","영업 담당자 연락처 이름",module,Magento_Email
+"Sales Representative Contact Email","영업 담당자 연락처 이메일",module,Magento_Email
 Country,국가,module,Magento_Email
 "Zip/Postal Code",우편번호,module,Magento_Email
 "Street Address 2","세부 주소",module,Magento_Email
 "<pre> %1 </pre>","<pre>
  %1 </pre>",module,Magento_Email
+"We're sorry, an error has occurred while generating this content.","이 콘텐츠를 생성 하는 동안 오류가 발생 했습니다.",module,Magento_Email
 Title,타이틀,module,Magento_Email
 No,아니오,module,Magento_EncryptionKey
 Yes,네,module,Magento_EncryptionKey
@@ -2668,6 +2674,7 @@ Remove,삭제,theme,frontend/Magento/luma
 "Remove This Item","해당 상품 삭제",theme,frontend/Magento/luma
 "Shop By",정렬순서,theme,frontend/Magento/luma
 "Clear All","모두 지우기",theme,frontend/Magento/luma
+"Shopping Options","쇼핑 옵션",theme,frontend/Magento/luma
 "Place Order",주문하기,module,Magento_Authorizenet
 "Place Order",주문하기,module,Magento_Braintree
 "Attention: Captcha is case sensitive.","주의: 보안문자(CAPTCHA)는 대소문자를 구분합니다.",module,Magento_Captcha
@@ -2708,6 +2715,7 @@ Remove,삭제,module,Magento_Checkout
 "Ship To:",배송:,module,Magento_Checkout
 edit,편집,module,Magento_Checkout
 "Order Summary","주문 요약",module,Magento_Checkout
+"View and Edit Cart","장바구니 보기",module,Magento_Checkout
 "View Details","자세히 보기",module,Magento_Checkout
 "Welcome to %store_name","%store_name 에 오신 것을 환영합니다.",module,Magento_Customer
 "Welcome to %store_name.","%store_name에 오신 것을 환영합니다.",module,Magento_Customer
@@ -2835,14 +2843,25 @@ Password:,비밀번호:,theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","If you have questions about your order, you can email us at <a href=""mailto:%store_email"">
  %store_email</a>
  .",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","#%order_id 주문에 대한 환불 정보 #%creditmemo_id",theme,frontend/Magento/luma
+"Billing Info","결제 정보",theme,frontend/Magento/luma
 "Shipping Info","배송 정보",theme,frontend/Magento/luma
 "Shipping Method","배송 방법",theme,frontend/Magento/luma
+"Update to your %store_name credit memo","%store_name 환불 정보를 업데이트 하세요",theme,frontend/Magento/luma
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","고객님의 주문번호 %increment_id의 상태가 <strong> %order_status</strong> 로 변경되었습니다.",theme,frontend/Magento/luma
+"Invoice for your %store_name order","%store_name 주문 결제 정보",theme,frontend/Magento/luma
 "Your Invoice #%invoice_id for Order #%order_id","주문 번호 %order_id에 대한 청구서 번호 %invoice_id",theme,frontend/Magento/luma
+"Update to your %store_name invoice","%store_name 결제 정보를 업데이트 하세요",theme,frontend/Magento/luma
+"Your %store_name order confirmation","%store_name 주문 확인",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","배송이 시작되면 트래킹 번호를 보내드립니다.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","주문번호 <span class=""no-link"">%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Placed on <span class=""no-link"">
  %created_at</span>",theme,frontend/Magento/luma
+"Update to your %store_name order","%store_name 주문 정보를 업데이트 하세요",theme,frontend/Magento/luma
 "Your %store_name order has shipped","%store_name 에서 주문하신 상품의 배송이 시작되었습니다.",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","배송에 관한 정보는 아래를 참조하십시오. 주문해주셔서 다시 한번 감사드립니다.",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","주문번호 %order_id의 배송이 시작되었습니다. 배송번호는 %shipment_id 입니다.",theme,frontend/Magento/luma
+"Update to your %store_name shipment","%store_name 배송정보를 업데이트 하세요",theme,frontend/Magento/luma
 "We could not detect a size.","사이즈를 알 수 없습니다.",module,Magento_Backend
 "We don't recognize or support this file extension type.","해당 파일의 확장자를 인식할 수 없거나 지원하지 않는 형식입니다.",module,Magento_Backend
 "Add Products to New Option","상품을 신규 옵션으로 추가",module,Magento_Bundle
@@ -2863,6 +2882,7 @@ Close,닫기,module,Magento_CheckoutAgreements
 "New Address","신규 주소",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","장바구니에서 이 항목을 제거 하시겠습니까?",module,Magento_Checkout
 "Review & Payments","검토 및 결제",module,Magento_Checkout
+"Select a new payment method","새로운 결제 수단을 선택하세요",module,Magento_Checkout
 Shipping,배송,module,Magento_Checkout
 "Save Address","주소 저장",module,Magento_Checkout
 "We could not detect a size.","사이즈를 알 수 없습니다.",module,Magento_Cms
@@ -3248,8 +3268,10 @@ Details,상세,module,Magento_Catalog
 "Checkout Options","체크아웃 옵션",module,Magento_Checkout
 "Enable Onepage Checkout","원페이지 체크아웃 활성화",module,Magento_Checkout
 "Allow Guest Checkout","비회원 체크아웃을 허용",module,Magento_Checkout
+"Display Billing Address On","결제 주소 표시",module,Magento_Checkout
 "Quote Lifetime (days)","견적 유효기간(일)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","제품을 장바구니에 담은 후에는 장바구니 페이지로 이동",module,Magento_Checkout
+"Number of Items to Display Pager","페이지당 표시할 아이템 수",module,Magento_Checkout
 "My Cart Link","내 장바구니 링크",module,Magento_Checkout
 "Display Cart Summary","장바구니 요약 노출",module,Magento_Checkout
 "Shopping Cart Sidebar","장바구니 사이드바",module,Magento_Checkout
