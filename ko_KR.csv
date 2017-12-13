@@ -1225,6 +1225,10 @@ Dropdown,드롭다운,module,Magento_Eav
 Back,이전,module,Magento_Email
 Reset,초기화,module,Magento_Email
 "Template Information","템플릿 정보",module,Magento_Email
+"General Contact Name","일반 연락처 이름",module,Magento_Email
+"General Contact Email","일반 연락처 이메일",module,Magento_Email
+"Sales Representative Contact Name","영업 담당자 연락처 이름",module,Magento_Email
+"Sales Representative Contact Email","영업 담당자 연락처 이메일",module,Magento_Email
 Country,국가,module,Magento_Email
 "Zip/Postal Code",우편번호,module,Magento_Email
 "Street Address 2","세부 주소",module,Magento_Email
