@@ -275,9 +275,6 @@ System,시스템,module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","관리자 새션 수면은 60초 이상이어야 합니다.",module,Magento_Backend
 Order,주문,module,Magento_Backend
 "Order #%1","주문번호 %1",module,Magento_Backend
-"Access denied","접근 거부",module,Magento_Backend
-"Please try to sign out and sign in again.","로그아웃 후 다시 로그인하십시오.",module,Magento_Backend
-"If you continue to receive this message, please contact the store owner.","이 메세지가 계속 나타나면 스토어에 문의하시기 바랍니다.",module,Magento_Backend
 "You need more permissions to access this.","권한이 없습니다.",module,Magento_Backend
 "Welcome, please sign in","환영합니다! 로그인하세요.",module,Magento_Backend
 Username,"사용자 이름",module,Magento_Backend
@@ -1061,7 +1058,6 @@ Checkout,결제,module,Magento_Checkout
 "Error message!","에러 메시지!",module,Magento_Checkout
 Error!,에러!,module,Magento_Checkout
 Message,메시지,module,Magento_Checkout
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print""> 영수증 인쇄</a>",module,Magento_Checkout
 "Apply Discount Code","할인 코드 적용",module,Magento_Checkout
 "Enter discount code","할인 코드를 입력하세요",module,Magento_Checkout
 "Apply Discount","할인 적용",module,Magento_Checkout
