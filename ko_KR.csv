@@ -62,6 +62,7 @@ void,무효,module,Magento_Authorizenet
 "Cache Storage Management","캐시 저장소 관리",module,Magento_Backend
 "Flush Magento Cache","마젠토 캐시 비우기",module,Magento_Backend
 "Flush Cache Storage","캐시 저장소 비우기",module,Magento_Backend
+Invalidated,"잘못된 날짜",module,Magento_Backend
 Orders,주문,module,Magento_Backend
 Amounts,금액,module,Magento_Backend
 Bestsellers,"베스트 셀러",module,Magento_Backend
@@ -87,6 +88,7 @@ Shipping,배송,module,Magento_Backend
 "All Files","모든 파일",module,Magento_Backend
 "Reset to Default","기본값으로 재설정",module,Magento_Backend
 "All Store Views","모든 스토어뷰",module,Magento_Backend
+"What is this?","이게 뭐죠?",module,Magento_Backend
 "Save Account","계정 저장",module,Magento_Backend
 "My Account","내 계정",module,Magento_Backend
 "Account Information","계정 정보",module,Magento_Backend
@@ -101,8 +103,11 @@ Email,이메일,module,Magento_Backend
 "Current User Identity Verification","현재 사용자 신원 확인",module,Magento_Backend
 "Your Password",비밀번호,module,Magento_Backend
 "Save Cache Settings","캐시 설정 저장",module,Magento_Backend
+"Catalog Rewrites","카탈로그 다시 작성",module,Magento_Backend
 Refresh,새로고침,module,Magento_Backend
 "Images Cache","이미지 캐시",module,Magento_Backend
+Clear,지우기,module,Magento_Backend
+"Search Index","검색 색인",module,Magento_Backend
 Rebuild,리빌드,module,Magento_Backend
 "Inventory Stock Status","재고 상태",module,Magento_Backend
 "Rebuild Catalog Index","카탈로그 인덱스 리빌드",module,Magento_Backend
@@ -127,6 +132,7 @@ Store,스토어,module,Magento_Backend
 "Date From","시작 날짜",module,Magento_Backend
 "Date To","종료 날짜",module,Magento_Backend
 "Design Change","디자인 변경",module,Magento_Backend
+General,기본설정,module,Magento_Backend
 Cancel,취소,module,Magento_Backend
 "Delete %1 '%2'","%1 '%2' 삭제",module,Magento_Backend
 "Delete %1","%1 삭제",module,Magento_Backend
@@ -173,6 +179,8 @@ Reset,초기화,module,Magento_Backend
 Search,검색,module,Magento_Backend
 Any,모든,module,Magento_Backend
 "All Countries","모든 국가",module,Magento_Backend
+From,"보낸 사람",module,Magento_Backend
+To,"받는 사람",module,Magento_Backend
 "Date selector","날짜 선택기",module,Magento_Backend
 "[ deleted ]","[ 삭제됨 ]",module,Magento_Backend
 "Select All","모두 선택",module,Magento_Backend
@@ -213,6 +221,7 @@ Error,에러,module,Magento_Backend
 System,시스템,module,Magento_Backend
 "Manage Stores","스토어 관리",module,Magento_Backend
 "The database was backed up.","데이터베이스가 백업되었습니다.",module,Magento_Backend
+"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","%1 을 삭제 해도 %1 (예: 범주, 제품, 등)와 관련 된 정보는 삭제 되지 않습니다 하지만 %1 복원할 수 없습니다. 그것은 %1을 삭제 하기 전에 데이터베이스 백업을 만드는 좋습니다.",module,Magento_Backend
 "This store cannot be deleted.","해당 스토어는 삭제할 수 없습니다.",module,Magento_Backend
 "This store view cannot be deleted.","해당 스토어뷰는 삭제할 수 없습니다.",module,Magento_Backend
 "Store View",스토어뷰,module,Magento_Backend
@@ -1906,6 +1915,7 @@ Cancel,취소,module,Magento_Catalog
 "Last Update","마지막 업데이트",module,Magento_AdminNotification
 Message,메시지,module,Magento_AdminNotification
 Enabled,활성,module,Magento_Authorizenet
+"Payment Action","결제 방법",module,Magento_Authorizenet
 Title,제목,module,Magento_Authorizenet
 "API Login ID","API 로그인 ID",module,Magento_Authorizenet
 "Transaction Key","트랜잭션 키",module,Magento_Authorizenet
@@ -1918,6 +1928,8 @@ Debug,디버그,module,Magento_Authorizenet
 "Merchant's Email","Merchant 이메일",module,Magento_Authorizenet
 "Credit Card Types","신용카드 타입",module,Magento_Authorizenet
 "Credit Card Verification","신용카드 확인",module,Magento_Authorizenet
+"Payment from Applicable Countries","해당 국가에서 지불",module,Magento_Authorizenet
+"Payment from Specific Countries","특정 국가에서 지불",module,Magento_Authorizenet
 "Minimum Order Total","최소 주문 합계",module,Magento_Authorizenet
 "Maximum Order Total","최대 주문 합계",module,Magento_Authorizenet
 "Sort Order","정렬 순서",module,Magento_Authorizenet
@@ -1935,6 +1947,8 @@ Pagination,"페이지 목록",module,Magento_Backend
 "Pagination Frame","페이지 목록 프레임",module,Magento_Backend
 "How many links to display at once.","얼마나 많은 링크를 한번에 표시하겠습니까?",module,Magento_Backend
 "Pagination Frame Skip","페이지 목록 프레임 넘기기",module,Magento_Backend
+"Anchor Text for Previous","앵커 텍스트에 대 한 이전",module,Magento_Backend
+"Anchor Text for Next","다음에 대 한 앵커 텍스트",module,Magento_Backend
 Developer,개발자,module,Magento_Backend
 Debug,디버그,module,Magento_Backend
 "Template Settings","템플릿 설정",module,Magento_Backend
@@ -1996,13 +2010,17 @@ Web,웹,module,Magento_Backend
 "Use Web Server Rewrites","웹서버 Rewrites 기능을 사용",module,Magento_Backend
 "Base URLs","기본 URL",module,Magento_Backend
 "Base URL","기본 URL",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","URL 또는 {{base_url}} 자리 표시자를 지정 합니다.",module,Magento_Backend
 "Base Link URL","기본 링크 URL",module,Magento_Backend
 "Base URL for Static View Files","정적 뷰파일에 대한 기본 URL",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","비어 있을 수 있습니다 또는 {{unsecure_base_url}} 자리 표시자로 시작.",module,Magento_Backend
 "Base URL for User Media Files","미디어 파일을 위한 기본 URL",module,Magento_Backend
 "Base URLs (Secure)","기본 URL (보안)",module,Magento_Backend
 "Secure Base URL","보안 기본 URL",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","URL 또는 {{base_url}}또는 {{unsecure_base_url}} 자리 표시자를 지정 합니다.",module,Magento_Backend
 "Secure Base Link URL","보안 기본 링크 URL",module,Magento_Backend
 "Secure Base URL for Static View Files","정적 뷰파일에 대한 보안 기본 URL",module,Magento_Backend
+"May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","비어 있을 수 있습니다 또는 {{secure_base_url}}또는 {{unsecure_base_url}} 자리 표시자로 시작.",module,Magento_Backend
 "Secure Base URL for User Media Files","미디어 파일을 위한 보안 기본 URL",module,Magento_Backend
 "Use Secure URLs on Storefront","스토어에 보안 URL 사용",module,Magento_Backend
 "Use Secure URLs in Admin","관리자에 보안 URL 사용",module,Magento_Backend
@@ -2017,6 +2035,7 @@ Web,웹,module,Magento_Backend
 "Use SID on Storefront","스토어 프론트에 SID 사용",module,Magento_Backend
 "Allows customers to stay logged in when switching between different stores.","다른 스토어로 전환시 로그인상태 유지 허용",module,Magento_Backend
 "Cache Type","캐시 타입",module,Magento_Backend
+Description,세부내용,module,Magento_Backend
 Tags,태그,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 에러</h1><p>페이지가 없습니다.</p>",module,Magento_Backend
 "Community Edition","커뮤니티 에디션",module,Magento_Backend
