@@ -1,7 +1,7 @@
 {
   "name": "magento2translations/language_ko_kr",
   "description": "Korean (한국어) Magento2 Language Pack (ko_KR) - From Magento2Translations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://magento2translations.github.io/",
   "license": [
     "MIT"
